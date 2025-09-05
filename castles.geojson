@@ -1,0 +1,3240 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-09-05T21:12:34Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27370910",
+        "castle_type": "stately",
+        "description": "12th century Hunting lodge for the Clifford family. Free entry.",
+        "historic": "castle",
+        "name": "Barden Tower",
+        "ruins": "yes",
+        "tourism": "attraction",
+        "wikidata": "Q17658872",
+        "wikipedia": "en:Barden Tower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9239598,
+          54.0107733
+        ]
+      },
+      "id": "node/27370910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29072083",
+        "historic": "castle",
+        "name": "Neville Castle",
+        "wikidata": "Q17663455"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9351684,
+          54.2736292
+        ]
+      },
+      "id": "node/29072083"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/36266798",
+        "historic": "castle",
+        "name": "Buittle Castle",
+        "wikidata": "Q4986711"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8447067,
+          54.9353607
+        ]
+      },
+      "id": "node/36266798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/166078169",
+        "historic": "castle",
+        "name": "Aberystwyth Castle",
+        "name:cy": "Castell Aberystwyth",
+        "ruins": "yes",
+        "tourism": "attraction",
+        "website": "http://www.castlewales.com/aberystw.html",
+        "wheelchair": "yes",
+        "wikidata": "Q319745",
+        "wikipedia": "en:Aberystwyth Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0895152,
+          52.4133256
+        ]
+      },
+      "id": "node/166078169"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/193715284",
+        "access": "private",
+        "description": "Motte and Bailey in someone's garden",
+        "historic": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4069218,
+          51.2021726
+        ]
+      },
+      "id": "node/193715284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/247177329",
+        "castle_type": "defensive",
+        "historic": "castle",
+        "name": "Lindsay Tower - Crawford Castle (remains of)",
+        "name:pt": "Castelo Crawford",
+        "ruins": "yes",
+        "tourism": "attraction",
+        "wikidata": "Q5182835",
+        "wikipedia": "en:Crawford Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6555729,
+          55.4746869
+        ]
+      },
+      "id": "node/247177329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/256877754",
+        "castle_type": "defensive",
+        "historic": "castle",
+        "name": "Framlingham Castle",
+        "name:bg": "Фрамлингамски замък",
+        "name:eo": "Kastelo Framlingham",
+        "name:fi": "Framlinghamin linna",
+        "name:fr": "Château de Framlingham",
+        "name:it": "Castello di Framlingham",
+        "name:ru": "Замок Фрамлингем",
+        "website": "https://www.english-heritage.org.uk/visit/places/framlingham-castle/",
+        "wikidata": "Q2524183",
+        "wikipedia": "en:Framlingham Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3466796,
+          52.2242205
+        ]
+      },
+      "id": "node/256877754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/296022044",
+        "historic": "castle",
+        "name": "Giant's Hill",
+        "source": "npe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0965558,
+          52.2915893
+        ]
+      },
+      "id": "node/296022044"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/316209311",
+        "castle_type": "defensive",
+        "historic": "castle",
+        "name": "Bootham Bar",
+        "tourism": "attraction",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0850846,
+          53.9627134
+        ]
+      },
+      "id": "node/316209311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/319585267",
+        "historic": "castle",
+        "name": "Kirshope Castle",
+        "wikidata": "Q17664339"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6069359,
+          55.2557779
+        ]
+      },
+      "id": "node/319585267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/335699833",
+        "historic": "castle",
+        "name": "Duke Murdoch's Castle",
+        "ruins": "yes",
+        "wikidata": "Q56661749"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.4619618,
+          56.1808138
+        ]
+      },
+      "id": "node/335699833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/370148208",
+        "historic": "castle",
+        "name": "Bolesworth Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7556202,
+          53.0989903
+        ]
+      },
+      "id": "node/370148208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/388540569",
+        "historic": "castle",
+        "name": "Staward Peel",
+        "ruins": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3139302,
+          54.9412948
+        ]
+      },
+      "id": "node/388540569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/416870760",
+        "historic": "castle",
+        "name": "Apley Castle",
+        "ruins": "yes",
+        "source": "NPE+local knowledge",
+        "wikidata": "Q4779972"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5092749,
+          52.7163397
+        ]
+      },
+      "id": "node/416870760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/436618898",
+        "access": "customers",
+        "addr:city": "Ludlow",
+        "addr:housename": "Ludlow Castle",
+        "addr:postcode": "SY8 1AY",
+        "addr:street": "Castle Square",
+        "castle_type": "defensive",
+        "ele": "111",
+        "fee": "yes",
+        "fee:conditional": "no @ age < 5",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Ludlow Castle",
+        "name:cy": "Castell Llwydlo",
+        "opening_hours:url": "https://www.ludlowcastle.com/visit-us/opening-times-prices-book-tickets/",
+        "ruins": "yes",
+        "source": "NPE",
+        "tourism": "attraction",
+        "website": "https://www.ludlowcastle.com/",
+        "wheelchair": "limited",
+        "wheelchair:description": "Very difficult to access. Shop unaccessible. Rough terrain and no access obviously to structures such as the towers. Can possibly access main grounds with a strong push and a manual wheelchair.",
+        "wikidata": "Q576369",
+        "wikipedia": "en:Ludlow Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7230141,
+          52.3671823
+        ]
+      },
+      "id": "node/436618898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/450155403",
+        "addr:city": "Gainsborough",
+        "addr:country": "GB",
+        "addr:housename": "The Old Hall",
+        "addr:postcode": "DN21 2NB",
+        "addr:street": "Parnell Street",
+        "castle_type": "manor",
+        "fee": "yes",
+        "fhrs:id": "234737",
+        "historic": "castle",
+        "name": "Gainsborough Old Hall",
+        "opening_hours:url": "https://www.english-heritage.org.uk/visit/places/gainsborough-old-hall/prices-and-opening-times/",
+        "operator": "English Heritage",
+        "source": "local_knowledge",
+        "tourism": "museum",
+        "website": "https://www.english-heritage.org.uk/visit/places/gainsborough-old-hall/",
+        "wikidata": "Q5517295",
+        "wikipedia": "en:Gainsborough Old Hall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7782513,
+          53.4007132
+        ]
+      },
+      "id": "node/450155403"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/474728866",
+        "building:condition": "completely_ruinous",
+        "historic": "castle",
+        "name": "Skelbo Castle",
+        "ruins": "yes",
+        "source": "OS7",
+        "state": "ruined",
+        "wikidata": "Q7534354",
+        "wikipedia": "en:Skelbo Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0406719,
+          57.929806
+        ]
+      },
+      "id": "node/474728866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/476645460",
+        "heritage:operator": "Historic Environment Scotland",
+        "heritage:website": "https://portal.historicenvironment.scot/designation/SM92",
+        "historic": "castle",
+        "name": "Hallforest Castle (ruin)",
+        "ref:GB:hs": "SM92",
+        "wikidata": "Q16840842",
+        "wikipedia": "en:Hallforest Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.370649,
+          57.2290265
+        ]
+      },
+      "id": "node/476645460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/483451778",
+        "historic": "castle",
+        "name": "Roundhay Castle (Folly)",
+        "wikidata": "Q26547712"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4925523,
+          53.8412274
+        ]
+      },
+      "id": "node/483451778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/512125307",
+        "historic": "castle",
+        "name": "Sundorne Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6998805,
+          52.7327043
+        ]
+      },
+      "id": "node/512125307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/524192503",
+        "access": "private",
+        "castle_type": "defensive",
+        "historic": "castle",
+        "name": "Braal Castle",
+        "ruins": "yes",
+        "wikidata": "Q4185814"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4819941,
+          58.5201516
+        ]
+      },
+      "id": "node/524192503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/529891293",
+        "historic": "castle",
+        "name": "Rothiemay Castle",
+        "wikidata": "Q9705682"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.746884,
+          57.5240575
+        ]
+      },
+      "id": "node/529891293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/577419985",
+        "historic": "castle",
+        "name": "New Castle",
+        "source": "NPE",
+        "source:name": "Wikipedia",
+        "wikidata": "Q20601891"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.8035445,
+          51.8514007
+        ]
+      },
+      "id": "node/577419985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/648864384",
+        "heritage:operator": "Cadw",
+        "historic": "castle",
+        "name": "Castell y Fflint",
+        "name:cy": "Castell y Fflint",
+        "name:en": "Castell y Fflint",
+        "wikidata": "Q1428846",
+        "wikipedia": "en:Flint Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1299073,
+          53.251764
+        ]
+      },
+      "id": "node/648864384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/667817380",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Ogle Castle",
+        "wikidata": "Q7080090",
+        "wikipedia": "en:Ogle Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7812468,
+          55.1057586
+        ]
+      },
+      "id": "node/667817380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/911163184",
+        "historic": "castle",
+        "name": "Colzium Castle",
+        "ruins": "yes",
+        "source": "survey",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0389537,
+          55.9849839
+        ]
+      },
+      "id": "node/911163184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/915266429",
+        "historic": "castle",
+        "name": "Winchester Castle",
+        "name:ar": "قلعة وينشستر",
+        "name:fi": "Winchesterin linna",
+        "name:fr": "Château de Winchester",
+        "name:ru": "Уинчестерский замок",
+        "name:uk": "Вінчестерський замок",
+        "name:ur": "ونچیسٹر کیسل",
+        "tourism": "attraction",
+        "wikidata": "Q1704670",
+        "wikipedia": "en:Winchester Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.319524,
+          51.0630153
+        ]
+      },
+      "id": "node/915266429"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1003827442",
+        "historic": "castle",
+        "name": "Hepburn Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8894772,
+          55.5178694
+        ]
+      },
+      "id": "node/1003827442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1259907402",
+        "castle_type": "manor",
+        "historic": "castle",
+        "listed_status": "Grade II",
+        "name": "Mettingham Castle",
+        "ref:GB:nhle": "1006055",
+        "wikidata": "Q6825492",
+        "wikipedia": "en:Mettingham Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4710954,
+          52.4457007
+        ]
+      },
+      "id": "node/1259907402"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1335935750",
+        "historic": "castle",
+        "name": "Tomen Castell",
+        "source": "Bing",
+        "source:name": "OS 1:25k",
+        "wikidata": "Q13131953"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9038863,
+          53.0514993
+        ]
+      },
+      "id": "node/1335935750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1589646466",
+        "historic": "castle",
+        "name": "Clavering Castle",
+        "wikidata": "Q5129609"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1390935,
+          51.966296
+        ]
+      },
+      "id": "node/1589646466"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1590916431",
+        "access": "yes",
+        "castle_type": "fortress",
+        "historic": "castle",
+        "name": "Bridgnorth Castle",
+        "ruins": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4193675,
+          52.5321965
+        ]
+      },
+      "id": "node/1590916431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1591054161",
+        "historic": "castle",
+        "listed_status": "Grade I",
+        "name": "Ayton Castle",
+        "ruins": "yes",
+        "wikidata": "Q17526107",
+        "wikipedia": "en:Ayton Castle, North Yorkshire"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4856262,
+          54.2520141
+        ]
+      },
+      "id": "node/1591054161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1611820302",
+        "access": "yes",
+        "castle_type": "hillfort",
+        "historic": "castle",
+        "name": "Castle Canyke",
+        "source": "NPE",
+        "website": "https://historicengland.org.uk/listing/the-list/list-entry/1006660"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.6982362,
+          50.461033
+        ]
+      },
+      "id": "node/1611820302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1617511225",
+        "historic": "castle",
+        "name": "Cawood Castle",
+        "source": "Bing;local_knowledge",
+        "wikidata": "Q5055225",
+        "wikipedia": "en:Cawood Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.129215,
+          53.8322828
+        ]
+      },
+      "id": "node/1617511225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1746029686",
+        "castle": "ruins",
+        "castle_type": "defensive",
+        "historic": "castle",
+        "name": "Ardrossan Castle",
+        "ruins": "yes",
+        "wikidata": "Q4788264",
+        "wikimedia_commons": "Category:Ardrossan Castle",
+        "wikipedia": "en:Ardrossan Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.8100968,
+          55.6418813
+        ]
+      },
+      "id": "node/1746029686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1782021232",
+        "historic": "castle",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5010383,
+          54.7122242
+        ]
+      },
+      "id": "node/1782021232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1790569772",
+        "castle_type": "defensive;motte_and_bailey",
+        "historic": "castle",
+        "name": "Middleton Stoney Castle",
+        "ruins": "yes",
+        "source": "wikipedia",
+        "source:geometry": "Bing",
+        "wikidata": "Q17676906"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.228625,
+          51.905621
+        ]
+      },
+      "id": "node/1790569772"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1801565082",
+        "historic": "castle",
+        "name": "Cowdray Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7317005,
+          50.9876143
+        ]
+      },
+      "id": "node/1801565082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1813812073",
+        "historic": "castle",
+        "name": "Morris Castle",
+        "name:cy": "Castle Graig",
+        "wikidata": "Q15256328"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9389102,
+          51.6503817
+        ]
+      },
+      "id": "node/1813812073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1888016925",
+        "historic": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.8762034,
+          55.9089287
+        ]
+      },
+      "id": "node/1888016925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1986154574",
+        "historic": "castle",
+        "name": "Dalmellington Castle",
+        "wikidata": "Q56664253"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3940266,
+          55.3228138
+        ]
+      },
+      "id": "node/1986154574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2018088531",
+        "historic": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5617121,
+          52.4177574
+        ]
+      },
+      "id": "node/2018088531"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2059685972",
+        "access": "private",
+        "historic": "castle",
+        "name": "Burton Castle (site of)",
+        "wikidata": "Q5000941",
+        "wikipedia": "en:Burton in Lonsdale Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5373279,
+          54.1439
+        ]
+      },
+      "id": "node/2059685972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2166050077",
+        "castle_type": "defensive",
+        "historic": "castle",
+        "name": "Evelick Castle",
+        "ref": "7300",
+        "source": "RCAHMS/Historic Scotland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2917612,
+          56.4190671
+        ]
+      },
+      "id": "node/2166050077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2166050864",
+        "historic": "castle",
+        "name": "Balthayock Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3393256,
+          56.3915307
+        ]
+      },
+      "id": "node/2166050864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2260681274",
+        "access": "yes",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Bury Mount",
+        "viewpoint": "yes",
+        "wikidata": "Q5001114",
+        "wikipedia": "en:Bury Mount"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9882733,
+          52.1332941
+        ]
+      },
+      "id": "node/2260681274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2300819991",
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Hadlow Castle",
+        "source": "OS 1:25k",
+        "wikidata": "Q5638005",
+        "wikipedia": "en:Hadlow Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3389993,
+          51.222646
+        ]
+      },
+      "id": "node/2300819991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2308843362",
+        "historic": "castle",
+        "name": "Woodhouses Hill Fort",
+        "ruins": "yes",
+        "wikidata": "Q8032761",
+        "wikipedia": "en:Woodhouse hill fort"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7356072,
+          53.2765045
+        ]
+      },
+      "id": "node/2308843362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2330199557",
+        "historic": "castle",
+        "name": "Colcombe Castle",
+        "wikidata": "Q5142148",
+        "wikipedia": "en:Colcombe Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.064762,
+          50.7466701
+        ]
+      },
+      "id": "node/2330199557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2389298189",
+        "historic": "castle",
+        "name": "Yester Castle",
+        "wikidata": "Q8052936",
+        "wikipedia": "en:Yester Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7109544,
+          55.8913972
+        ]
+      },
+      "id": "node/2389298189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2407398100",
+        "castle_type": "defensive",
+        "historic": "castle",
+        "name": "Moccas Castle",
+        "url": "http://htt.herefordshire.gov.uk/1210.aspx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.951264,
+          52.0766906
+        ]
+      },
+      "id": "node/2407398100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2414285756",
+        "historic": "castle",
+        "name": "Mere Castle",
+        "ruins": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2728503,
+          51.0919468
+        ]
+      },
+      "id": "node/2414285756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2500753360",
+        "historic": "castle",
+        "name": "Ardley Castle",
+        "wikidata": "Q4788169"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2171864,
+          51.9420131
+        ]
+      },
+      "id": "node/2500753360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2534526754",
+        "access": "private",
+        "email": "rjluckman@btconnect.com",
+        "historic": "castle",
+        "name": "Kilchrist Castle",
+        "phone": "+44 121 444 1200",
+        "website": "https://www.kilchrist-castle.co.uk/index.html",
+        "wikidata": "Q15238443",
+        "wikimedia_commons": "File:Kilchrist Castle - geograph.org.uk - 1343265.jpg",
+        "wikipedia": "en:Kilchrist Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.6468501,
+          55.4009904
+        ]
+      },
+      "id": "node/2534526754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2586138774",
+        "historic": "castle",
+        "name": "Press Castle",
+        "place": "isolated_dwelling",
+        "wikidata": "Q17847719"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2080895,
+          55.881453
+        ]
+      },
+      "id": "node/2586138774"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2627367475",
+        "access": "yes",
+        "building": "yes",
+        "castle_type": "fortress",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "The Gunholes",
+        "ruins": "military"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5177365,
+          56.0056551
+        ]
+      },
+      "id": "node/2627367475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2627367476",
+        "access": "yes",
+        "building": "yes",
+        "castle_type": "fortress",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "The Magazine",
+        "ruins": "military"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5182038,
+          56.0054779
+        ]
+      },
+      "id": "node/2627367476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2660055850",
+        "historic": "castle",
+        "name": "Toot Hill",
+        "ruins": "yes",
+        "source": "Bing",
+        "start_date": "C11..C12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1293058,
+          53.3073215
+        ]
+      },
+      "id": "node/2660055850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2660060608",
+        "historic": "castle",
+        "name": "Castle Hill",
+        "ruins": "yes",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1425861,
+          53.3167011
+        ]
+      },
+      "id": "node/2660060608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2660062139",
+        "historic": "castle",
+        "name": "Castle Hill",
+        "ruins": "yes",
+        "source": "Bing",
+        "start_date": "~C12",
+        "wikidata": "Q5042969"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0932013,
+          53.330851
+        ]
+      },
+      "id": "node/2660062139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2700686051",
+        "castle_type": "defensive",
+        "historic": "castle",
+        "name": "Somerton Castle",
+        "place": "locality",
+        "source": "Bing",
+        "wikidata": "Q7559944",
+        "wikipedia": "en:Somerton Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5758912,
+          53.1176517
+        ]
+      },
+      "id": "node/2700686051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2832648791",
+        "castle_type": "defensive",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Brynffanigl Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6201219,
+          53.2558868
+        ]
+      },
+      "id": "node/2832648791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2913456928",
+        "historic": "castle",
+        "name": "Meppershall Castel",
+        "note": "Built by William de Meppershall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3509201,
+          52.0095781
+        ]
+      },
+      "id": "node/2913456928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2948714558",
+        "historic": "castle",
+        "name": "Ormond Castle",
+        "ruins": "castle",
+        "source": "bing",
+        "wikidata": "Q7103439"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.179961,
+          57.5536114
+        ]
+      },
+      "id": "node/2948714558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2956452704",
+        "historic": "castle",
+        "name": "Eglinton Castle",
+        "ref:canmore": "42076",
+        "ruins": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.6663583,
+          55.6444371
+        ]
+      },
+      "id": "node/2956452704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2980863588",
+        "alt_name": "Wells Slade",
+        "historic": "castle",
+        "name": "Wybert's Castle",
+        "ruins": "yes",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0136285,
+          52.949947
+        ]
+      },
+      "id": "node/2980863588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2980863589",
+        "castle_type": "defensive",
+        "historic": "castle",
+        "name": "Manwar Ings",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.150839,
+          52.9517468
+        ]
+      },
+      "id": "node/2980863589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3054665940",
+        "castle": "ruins",
+        "fixme": "name",
+        "historic": "castle",
+        "wikidata": "Q17825314"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.8381179,
+          55.7111094
+        ]
+      },
+      "id": "node/3054665940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3250938225",
+        "castle_type": "defensive",
+        "description": "Medieval Motte and Baily Castle. Appears not to have its own name.",
+        "historic": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.623917,
+          53.0075191
+        ]
+      },
+      "id": "node/3250938225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3251049083",
+        "historic": "castle",
+        "name": "Bampton Castle",
+        "wikidata": "Q4853530",
+        "wikipedia": "en:Bampton Castle, Devon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4854344,
+          50.9927505
+        ]
+      },
+      "id": "node/3251049083"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3254167064",
+        "historic": "castle",
+        "name": "Welbourn Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5562544,
+          53.0775765
+        ]
+      },
+      "id": "node/3254167064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3268971664",
+        "historic": "castle",
+        "name": "Daw's Castle",
+        "operator": "English Heritage",
+        "ruins": "yes",
+        "wikidata": "Q5242247"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3419347,
+          51.1813543
+        ]
+      },
+      "id": "node/3268971664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3310137040",
+        "historic": "castle",
+        "name": "Gwyrch Castle Northern Towers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6271073,
+          53.2882313
+        ]
+      },
+      "id": "node/3310137040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3334151452",
+        "castle_type": "defensive",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Tomen Y Bala",
+        "wikidata": "Q13131952"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.595414,
+          52.9115586
+        ]
+      },
+      "id": "node/3334151452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3336154342",
+        "historic": "castle",
+        "name": "Castell Carreg-y-saeth"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.020483,
+          52.8519172
+        ]
+      },
+      "id": "node/3336154342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3372080845",
+        "access": "yes",
+        "addr:city": "Huntingdon",
+        "castle_type": "site",
+        "description": "Motte and Bailey",
+        "designation": "scheduling",
+        "end_date": "~1174",
+        "heritage:operator": "he",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "historic:period": "norman",
+        "name": "Huntingdon Castle",
+        "protect_class": "22",
+        "ref:GB:nhle": "1011712",
+        "ruins": "no",
+        "start_date": "1068",
+        "was:building": "windmill",
+        "wikidata": "Q5945108",
+        "wikipedia": "en:Huntingdon Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1810961,
+          52.3271871
+        ]
+      },
+      "id": "node/3372080845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3403701146",
+        "castle_type": "castrum",
+        "historic": "castle",
+        "note": "The Roman fortress of Banovallum/Horncastle",
+        "ruins": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1168122,
+          53.2084446
+        ]
+      },
+      "id": "node/3403701146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3413586579",
+        "historic": "castle",
+        "name": "Lethendry Castle",
+        "wikidata": "Q56661934"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5227341,
+          57.3279706
+        ]
+      },
+      "id": "node/3413586579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3540456632",
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Methven Castle",
+        "name:eu": "Methveneko gaztelua",
+        "name:pt": "Castelo de Methven",
+        "tourism": "guest_house",
+        "website": "http://www.methvencastle.com/",
+        "wikidata": "Q1964681",
+        "wikipedia": "en:Methven Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5549253,
+          56.4168208
+        ]
+      },
+      "id": "node/3540456632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3656155820",
+        "alt_name": "Inch Talla Castle",
+        "heritage": "yes",
+        "historic": "castle",
+        "name": "Talla Castle (ruins)",
+        "ruins": "castle",
+        "source": "http://canmore.org.uk/site/24064/lake-of-menteith-inch-talla-talla-castle",
+        "wikidata": "Q56661748",
+        "wikipedia": "en:Talla Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3015847,
+          56.1745797
+        ]
+      },
+      "id": "node/3656155820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3658406468",
+        "historic": "castle",
+        "name": "Castle Rusky (ruins)",
+        "ruins": "castle",
+        "wikidata": "Q28407893",
+        "wikipedia": "en:Rusky Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2347275,
+          56.202893
+        ]
+      },
+      "id": "node/3658406468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3802491209",
+        "historic": "castle",
+        "name": "Tower o' Ess",
+        "wikidata": "Q17773179"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.8187789,
+          57.0632817
+        ]
+      },
+      "id": "node/3802491209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3900024117",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Roos Hall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0469466,
+          52.9736801
+        ]
+      },
+      "id": "node/3900024117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3900024118",
+        "castle_type": "manor",
+        "historic": "castle",
+        "name": "Wrangle Hall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1341517,
+          53.0323077
+        ]
+      },
+      "id": "node/3900024118"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3911612450",
+        "access": "yes",
+        "castle_type": "site",
+        "description": "Bourne Castle was a Norman motte and double bailey castle. It was destroyed after being used by Oliver Cromwell's troops in 1645, and a farmhouse was built on its site",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Bourne Castle",
+        "razed:historic": "castle",
+        "source": "Wikipedia;local knowledge",
+        "wikidata": "Q15203997",
+        "wikipedia": "en:Bourne Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3790984,
+          52.7667831
+        ]
+      },
+      "id": "node/3911612450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3979074456",
+        "alt_name": "Bonkyll Castle",
+        "historic": "castle",
+        "name": "Bunkle Castle",
+        "wikidata": "Q4942141",
+        "wikipedia": "en:Bonkyll Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3121085,
+          55.8297812
+        ]
+      },
+      "id": "node/3979074456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3986928273",
+        "historic": "castle",
+        "name": "The Castles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3880598,
+          53.6882465
+        ]
+      },
+      "id": "node/3986928273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3997487197",
+        "historic": "castle",
+        "name": "Sturminster Castle",
+        "wikidata": "Q17540254"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3077525,
+          50.920529
+        ]
+      },
+      "id": "node/3997487197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4131445073",
+        "historic": "castle",
+        "name": "Braikie Castle",
+        "ruins": "yes",
+        "wikidata": "Q17576127",
+        "wikimedia_commons": "Category:Braikie Castle",
+        "wikipedia": "en:Braikie Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6075358,
+          56.6483423
+        ]
+      },
+      "id": "node/4131445073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4178146017",
+        "historic": "castle",
+        "name": "Whytbank Tower",
+        "wikidata": "Q123578725"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.8879099,
+          55.6293055
+        ]
+      },
+      "id": "node/4178146017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4228843289",
+        "historic": "castle",
+        "name": "Gresham Castle",
+        "ruins": "yes",
+        "wikidata": "Q5607570",
+        "wikipedia": "en:Gresham Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2197358,
+          52.8964598
+        ]
+      },
+      "id": "node/4228843289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4269353393",
+        "historic": "castle",
+        "name": "Stockland Little Castle",
+        "wikidata": "Q17663168"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0947591,
+          50.8268975
+        ]
+      },
+      "id": "node/4269353393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4269366557",
+        "historic": "castle",
+        "name": "Stockland Great Castle",
+        "wikidata": "Q17663160"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0999481,
+          50.8177039
+        ]
+      },
+      "id": "node/4269366557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4365446594",
+        "historic": "castle",
+        "name": "Vernons Folly"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7600669,
+          52.8919577
+        ]
+      },
+      "id": "node/4365446594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4443301500",
+        "historic": "castle",
+        "name": "Castle Neroche"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0382593,
+          50.9371962
+        ]
+      },
+      "id": "node/4443301500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4685126690",
+        "historic": "castle",
+        "name": "Hensol Castle",
+        "name:en": "Hensol Castle",
+        "wikidata": "Q14218099"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3736089,
+          51.5016407
+        ]
+      },
+      "id": "node/4685126690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4716412307",
+        "castle_type": "stately",
+        "historic": "castle",
+        "name": "Rothwell Castle Ruins"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4820499,
+          53.7500158
+        ]
+      },
+      "id": "node/4716412307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4872637392",
+        "castle_type": "defensive",
+        "description": "ruins",
+        "heritage": "yes",
+        "historic": "castle",
+        "historic:civilization": "middle-ages",
+        "name": "Cathcart Castle",
+        "wikidata": "Q5052169",
+        "wikipedia": "en:Cathcart Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2559066,
+          55.8127768
+        ]
+      },
+      "id": "node/4872637392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4907272430",
+        "historic": "castle",
+        "name": "Newberry Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0455533,
+          51.2049585
+        ]
+      },
+      "id": "node/4907272430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4908114673",
+        "castle_type": "defensive",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Ystrad Peithyll",
+        "website": "http://www.coflein.gov.uk/en/site/303590/details/castell-ystrad-peithyllstradpeithyllrhosgoch-motte",
+        "wikidata": "Q8059805",
+        "wikipedia": "en:Ystrad Peithyll"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.981931,
+          52.4232372
+        ]
+      },
+      "id": "node/4908114673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5006856735",
+        "historic": "castle",
+        "name": "Mereworth Castle",
+        "wikidata": "Q956090",
+        "wikipedia": "en:Mereworth Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.390256,
+          51.2538107
+        ]
+      },
+      "id": "node/5006856735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5172625185",
+        "historic": "castle",
+        "name": "Castle Motte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8975227,
+          54.2574545
+        ]
+      },
+      "id": "node/5172625185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5271810964",
+        "castle_type": "motte",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Knockin Castle",
+        "note": "All that remains of Knockin Castle today is a large tree-covered mound of earth.",
+        "ruins": "yes",
+        "wikidata": "Q6422872",
+        "wikipedia": "en:Knockin Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9881067,
+          52.794531
+        ]
+      },
+      "id": "node/5271810964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5284089664",
+        "historic": "castle",
+        "name": "Bewley Castle",
+        "ruins": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5463132,
+          54.5844356
+        ]
+      },
+      "id": "node/5284089664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5589837421",
+        "castle_type": "palace",
+        "historic": "castle",
+        "name": "Weston Hall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2878819,
+          52.693037
+        ]
+      },
+      "id": "node/5589837421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5590671686",
+        "historic": "castle",
+        "name": "Upton Castle Gardens",
+        "website": "https://www.uptoncastle.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.8663453,
+          51.7060352
+        ]
+      },
+      "id": "node/5590671686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5658982302",
+        "castle_type": "motte",
+        "historic": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.511941,
+          51.0875728
+        ]
+      },
+      "id": "node/5658982302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5664659300",
+        "historic": "castle",
+        "name": "Red Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6383488,
+          52.8610151
+        ]
+      },
+      "id": "node/5664659300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5675889897",
+        "historic": "castle",
+        "name": "Hembury Castle",
+        "wheelchair": "no",
+        "wikidata": "Q17647594"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7983933,
+          50.5017644
+        ]
+      },
+      "id": "node/5675889897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5694315663",
+        "historic": "castle",
+        "name": "Caer Williamsburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2998451,
+          53.0707927
+        ]
+      },
+      "id": "node/5694315663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5737058293",
+        "historic": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1475153,
+          52.0849229
+        ]
+      },
+      "id": "node/5737058293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5754866643",
+        "historic": "castle",
+        "name": "Motte Castle Mound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6002321,
+          52.918872
+        ]
+      },
+      "id": "node/5754866643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5778984933",
+        "castle_type": "defensive",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Hen Blas",
+        "name:cy": "Hen Blas",
+        "wikidata": "Q24660243"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1682118,
+          53.2523409
+        ]
+      },
+      "id": "node/5778984933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5810470595",
+        "castle_type": "motte",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Prestatyn Castle",
+        "wikidata": "Q7241757"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3946171,
+          53.338575
+        ]
+      },
+      "id": "node/5810470595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5834902485",
+        "addr:postcode": "FK15 9LG",
+        "historic": "castle",
+        "name": "Orchil Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8299241,
+          56.2853518
+        ]
+      },
+      "id": "node/5834902485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879159698",
+        "historic": "castle",
+        "name": "Turret"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2758985,
+          54.4502177
+        ]
+      },
+      "id": "node/5879159698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5988396902",
+        "historic": "castle",
+        "name": "Upsall Castle",
+        "wikidata": "Q7899241",
+        "wikipedia": "en:Upsall Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3048189,
+          54.2766577
+        ]
+      },
+      "id": "node/5988396902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5989551779",
+        "historic": "castle",
+        "name": "Kirby Knowle Castle",
+        "wikidata": "Q24661267"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2964321,
+          54.2808299
+        ]
+      },
+      "id": "node/5989551779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6015384566",
+        "heritage": "yes",
+        "historic": "castle",
+        "name": "Asloun Castle",
+        "ruins": "yes",
+        "wikidata": "Q17985630",
+        "wikipedia": "en:Asloun Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7587807,
+          57.2225607
+        ]
+      },
+      "id": "node/6015384566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6015869672",
+        "heritage": "yes",
+        "historic": "castle",
+        "name": "Parbroath Castle",
+        "wikidata": "Q15265402",
+        "wikipedia": "en:Parbroath Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0992094,
+          56.3460163
+        ]
+      },
+      "id": "node/6015869672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6016039624",
+        "heritage": "yes",
+        "historic": "castle",
+        "name": "Oldwoodhouselee Castle",
+        "ruins": "yes",
+        "wikidata": "Q42887816",
+        "wikipedia": "en:Oldwoodhouselee Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1875962,
+          55.8415998
+        ]
+      },
+      "id": "node/6016039624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6018397808",
+        "heritage": "yes",
+        "historic": "castle",
+        "name": "Naughton Castle",
+        "ruins": "yes",
+        "wikidata": "Q17793091"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0169648,
+          56.4104767
+        ]
+      },
+      "id": "node/6018397808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6023609829",
+        "castle_type": "manor",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Boverton Castle",
+        "wikidata": "Q39011896"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4641514,
+          51.4049564
+        ]
+      },
+      "id": "node/6023609829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6050674824",
+        "historic": "castle",
+        "listed_status": "Grade I",
+        "name": "Whorlton Castle",
+        "ruins": "yes",
+        "wikidata": "Q7997651",
+        "wikipedia": "en:Whorlton Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2600054,
+          54.4154181
+        ]
+      },
+      "id": "node/6050674824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6213894322",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Castell Meredydd",
+        "ruins": "yes",
+        "wikidata": "Q13126908"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1191957,
+          51.5919415
+        ]
+      },
+      "id": "node/6213894322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6221551985",
+        "historic": "castle",
+        "name": "Westenhanger"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.0318376,
+          51.0945159
+        ]
+      },
+      "id": "node/6221551985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6341641376",
+        "historic": "castle",
+        "name": "Coity Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.553238,
+          51.5220207
+        ]
+      },
+      "id": "node/6341641376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6388760985",
+        "addr:postcode": "G63 9AJ",
+        "historic": "castle",
+        "name": "Duntreath Castle",
+        "wikidata": "Q17847259"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3487675,
+          56.0003369
+        ]
+      },
+      "id": "node/6388760985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7003358334",
+        "description": "Site of castle (no visible remains)",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "The Mount",
+        "source": "OS_OpenData_StreetView"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5788332,
+          53.3923394
+        ]
+      },
+      "id": "node/7003358334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7115097851",
+        "historic": "castle",
+        "name": "Polnoon Castle",
+        "ruins": "yes",
+        "wikidata": "Q3794162",
+        "wikimedia_commons": "Category:Polnoon Castle",
+        "wikipedia": "en:Polnoon Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2548753,
+          55.7345922
+        ]
+      },
+      "id": "node/7115097851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7236258825",
+        "historic": "castle",
+        "name": "Orchardhill Tower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2936331,
+          55.8003828
+        ]
+      },
+      "id": "node/7236258825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7447351085",
+        "historic": "castle",
+        "name": "Castle Duke (historic hill fort)",
+        "wikidata": "Q5050065",
+        "wikipedia": "en:Castle Dyke"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5249307,
+          50.5828163
+        ]
+      },
+      "id": "node/7447351085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7539636291",
+        "castle_type": "defensive",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Site of Hamilton of Torrance Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.1460464,
+          55.7525689
+        ]
+      },
+      "id": "node/7539636291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7580935170",
+        "historic": "castle",
+        "name": "Powrie Castle",
+        "ruins": "yes",
+        "start_date": "~C16",
+        "wikidata": "Q7236933"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9416671,
+          56.4998109
+        ]
+      },
+      "id": "node/7580935170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7920870362",
+        "historic": "castle",
+        "name": "Rhayader Castle",
+        "wikidata": "Q13126920",
+        "wikipedia": "en:Rhayader Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5145431,
+          52.3008061
+        ]
+      },
+      "id": "node/7920870362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8224081137",
+        "historic": "castle",
+        "listed_status": "Category B",
+        "name": "Carleton Castle",
+        "ref:GB:hs": "LB1058",
+        "ref:canmore": "61968",
+        "wikidata": "Q17840313",
+        "wikipedia": "en:Carleton Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.9324354,
+          55.1647218
+        ]
+      },
+      "id": "node/8224081137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8248636859",
+        "historic": "castle",
+        "name": "Cumstoun Castle",
+        "url": "https://canmore.org.uk/site/64129/cumstoun-castle",
+        "wikidata": "Q56661808"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0543964,
+          54.8566497
+        ]
+      },
+      "id": "node/8248636859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8373489152",
+        "castle_type": "motte",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Tomen-y-Faerdre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2063241,
+          53.0964803
+        ]
+      },
+      "id": "node/8373489152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8638667329",
+        "access": "private",
+        "castle_type": "defensive",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "East Castle",
+        "wikidata": "Q17643156"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.958292,
+          51.1244075
+        ]
+      },
+      "id": "node/8638667329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8783394388",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Driffield Castle",
+        "wikidata": "Q5307412",
+        "wikipedia": "en:Driffield Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4396535,
+          54.0104112
+        ]
+      },
+      "id": "node/8783394388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8824494322",
+        "heritage": "yes",
+        "heritage:operator": "Historic Environment Scotland",
+        "heritage:website": "https://portal.historicenvironment.scot/designation/SM4037",
+        "historic": "castle",
+        "name": "Eilean Tighe Bhain Castle",
+        "ref:GB:hs": "SM4037",
+        "ref:canmore": "23471",
+        "ruins": "yes",
+        "wikidata": "Q56665769"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.1705372,
+          56.3761377
+        ]
+      },
+      "id": "node/8824494322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8935673861",
+        "access": "yes",
+        "castle_type": "defensive",
+        "description": "Cliff castles are coastal promontories adapted as enclosures and fortified on the landward side by the construction of one or more ramparts accompanied by ditches. On the seaward side the precipitous cliffs of the promontory provided a natural defence, on",
+        "historic": "castle",
+        "historic:civilization": "iron-age",
+        "name": "Crane Castle",
+        "website": "https://historicengland.org.uk/listing/the-list/list-entry/1004390"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.3189313,
+          50.2485639
+        ]
+      },
+      "id": "node/8935673861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9124286961",
+        "castle_type": "fortress",
+        "historic": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6044549,
+          56.5651559
+        ]
+      },
+      "id": "node/9124286961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9276369335",
+        "historic": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6445495,
+          51.6139523
+        ]
+      },
+      "id": "node/9276369335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9276369336",
+        "historic": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6453089,
+          51.61378
+        ]
+      },
+      "id": "node/9276369336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9276369337",
+        "historic": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6452238,
+          51.6140171
+        ]
+      },
+      "id": "node/9276369337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9392170496",
+        "historic": "castle",
+        "name": "Innerwick Castle",
+        "wikidata": "Q6035740",
+        "wikimedia_commons": "Category:Innerwick Castle",
+        "wikipedia": "en:Innerwick Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.425614,
+          55.9555303
+        ]
+      },
+      "id": "node/9392170496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9433385131",
+        "fee": "no",
+        "historic": "castle",
+        "name": "Saltcoats Castle (Remains)",
+        "ruins": "yes",
+        "tourism": "attraction",
+        "wikidata": "Q7406057",
+        "wikipedia": "en:Saltcoats Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.8273876,
+          56.0271128
+        ]
+      },
+      "id": "node/9433385131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9556571760",
+        "access": "private",
+        "castle_type": "defensive",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Sedgwick Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3184567,
+          51.03003
+        ]
+      },
+      "id": "node/9556571760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9704973031",
+        "HE_ref": "1012419",
+        "access": "no",
+        "castle_type": "motte_and_bailey",
+        "historic": "castle",
+        "listed_status": "scheduled monument",
+        "note": "Dodleston Castle",
+        "wikidata": "Q17673868"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9560706,
+          53.141117
+        ]
+      },
+      "id": "node/9704973031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9769878856",
+        "access": "yes",
+        "castle_type": "motte",
+        "historic": "castle",
+        "name": "Nevern Castle",
+        "name:cy": "Castell Nanhyfer",
+        "wikidata": "Q31108153"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.7974503,
+          52.0266261
+        ]
+      },
+      "id": "node/9769878856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10984436670",
+        "access": "private",
+        "addr:city": "Abergavenny",
+        "addr:suburb": "Llanfair Kilgeddin",
+        "alt_name": "Llanfair Kilgeddin Castle",
+        "castle_type": "motte",
+        "historic": "castle",
+        "name": "St Mary Yard Mound",
+        "wikidata": "Q24659463"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9433952,
+          51.757324
+        ]
+      },
+      "id": "node/10984436670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11005980168",
+        "historic": "castle",
+        "name": "Simonburn Castle (Remains)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.216234,
+          55.057919
+        ]
+      },
+      "id": "node/11005980168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11922992290",
+        "historic": "castle",
+        "name": "Baconsthorpe Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1521577,
+          52.8991321
+        ]
+      },
+      "id": "node/11922992290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11962814221",
+        "castle_type": "defensive",
+        "historic": "castle",
+        "name": "Pembroke Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.9199046,
+          51.6765173
+        ]
+      },
+      "id": "node/11962814221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11964217023",
+        "castle_type": "fortress",
+        "historic": "castle",
+        "name": "Defensible Barracks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.9518762,
+          51.6893685
+        ]
+      },
+      "id": "node/11964217023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12009199669",
+        "historic": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3273487,
+          56.0583132
+        ]
+      },
+      "id": "node/12009199669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12025605669",
+        "historic": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3563067,
+          57.1631543
+        ]
+      },
+      "id": "node/12025605669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12025605769",
+        "historic": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3564655,
+          57.1627986
+        ]
+      },
+      "id": "node/12025605769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12042148769",
+        "historic": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5047538,
+          57.1982961
+        ]
+      },
+      "id": "node/12042148769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12099150662",
+        "castle_type": "defensive",
+        "historic": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.8580617,
+          51.8143912
+        ]
+      },
+      "id": "node/12099150662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12380847100",
+        "historic": "castle",
+        "listed_status": "Scheduled Monument",
+        "name": "Knockamillie Castle",
+        "ref:GB:hs": "SM4617",
+        "ref:canmore": "40749",
+        "ruins": "yes",
+        "wikidata": "Q56661919"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.9567518,
+          55.8966147
+        ]
+      },
+      "id": "node/12380847100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12643647958",
+        "access": "private",
+        "castle_type": "manor",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Eccleshall Castle",
+        "wikidata": "Q5332222",
+        "wikipedia": "en:Eccleshall Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2569759,
+          52.8633323
+        ]
+      },
+      "id": "node/12643647958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12768338993",
+        "castle_type": "castle",
+        "historic": "castle",
+        "name": "Neath Castle",
+        "name:cy": "Castell Nedd",
+        "wikidata": "Q6984490"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8035194,
+          51.6651122
+        ]
+      },
+      "id": "node/12768338993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12919147007",
+        "historic": "castle",
+        "name": "Craigownie Castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.8514449,
+          55.9912287
+        ]
+      },
+      "id": "node/12919147007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13022434101",
+        "castle_type": "defensive",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Llowes Castle Tump",
+        "website": "https://www.gatehouse-gazetteer.info/Welshsites/887.html",
+        "wikidata": "Q24659809"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1814438,
+          52.058754
+        ]
+      },
+      "id": "node/13022434101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13022459644",
+        "access": "private",
+        "alt_name": "Llanigon castle",
+        "castle_type": "defensive",
+        "historic": "castle",
+        "historic:civilization": "medieval",
+        "name": "Llanthomas Castle Mound",
+        "website": "https://www.gatehouse-gazetteer.info/Welshsites/64.html",
+        "wikidata": "Q20594302",
+        "wikipedia": "en:Llanthomas Castle Mound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1547191,
+          52.0560116
+        ]
+      },
+      "id": "node/13022459644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13050594666",
+        "historic": "castle",
+        "name": "Sandringham Estate Visitors' entrance",
+        "website": "https://sandringhamestate.co.uk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5085554,
+          52.8295126
+        ]
+      },
+      "id": "node/13050594666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13075750607",
+        "historic": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9201343,
+          52.4193169
+        ]
+      },
+      "id": "node/13075750607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13075884064",
+        "historic": "castle",
+        "name": "Penycastell"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9612767,
+          52.2893611
+        ]
+      },
+      "id": "node/13075884064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13075884065",
+        "historic": "castle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9512104,
+          52.253149
+        ]
+      },
+      "id": "node/13075884065"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13075890396",
+        "historic": "castle",
+        "name": "Castell-y-garn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4412929,
+          52.3518106
+        ]
+      },
+      "id": "node/13075890396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13075905035",
+        "historic": "castle",
+        "name": "Castell Cadwgan (site of)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.253431,
+          52.2474542
+        ]
+      },
+      "id": "node/13075905035"
+    }
+  ]
+}

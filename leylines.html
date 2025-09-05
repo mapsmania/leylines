@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Castle Ley Lines</title>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <link href="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css" rel="stylesheet" />
+  <script src="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js"></script>
+  <style>
+    body { margin: 0; padding: 0; }
+    #map { width: 100vw; height: 100vh; }
+  </style>
+</head>
+<body>
+<div id="map"></div>
+
+<script>
+// ---- Load map ----
+const map = new maplibregl.Map({
+  container: 'map',
+  style: 'https://tiles.openfreemap.org/styles/positron',
+  center: [-2.5, 54.5], // roughly UK
+  zoom: 6
+});
+
+// Load the castles GeoJSON
+async function loadCastles() {
+  const res = await fetch('castles.geojson'); // <-- make sure castles.geojson is served in same folder
+  return await res.json();
+}
+
+function lineFeature(coords) {
+  return {
+    type: "Feature",
+    geometry: {
+      type: "LineString",
+      coordinates: coords
+    },
+    properties: {}
+  };
+}
+
+map.on('load', async () => {
+  const castles = await loadCastles();
+
+  // Add castles as a circle layer
+  map.addSource('castles', { type: 'geojson', data: castles });
+  map.addLayer({
+    id: 'castles-layer',
+    type: 'circle',
+    source: 'castles',
+    paint: { 'circle-radius': 5, 'circle-color': '#b00' }
+  });
+
+  // Empty ley line source
+  map.addSource('leylines', { type: 'geojson', data: { type: "FeatureCollection", features: [] } });
+  map.addLayer({
+    id: 'leylines-layer',
+    type: 'line',
+    source: 'leylines',
+    paint: { 'line-color': '#0080ff', 'line-width': 2 }
+  });
+
+  // When user clicks, compute 3 ley lines
+  map.on('click', (e) => {
+    const clickCoord = [e.lngLat.lng, e.lngLat.lat];
+    const features = castles.features;
+
+    // Sort castles by distance to click
+    const sorted = features.slice().sort((a, b) => {
+      const dx1 = a.geometry.coordinates[0] - clickCoord[0];
+      const dy1 = a.geometry.coordinates[1] - clickCoord[1];
+      const dx2 = b.geometry.coordinates[0] - clickCoord[0];
+      const dy2 = b.geometry.coordinates[1] - clickCoord[1];
+      return (dx1*dx1 + dy1*dy1) - (dx2*dx2 + dy2*dy2);
+    });
+
+    // Pick 6 nearest castles and form 3 lines through click + 2 castles
+    const leyLines = [];
+    for (let i = 0; i < 3; i++) {
+      const c1 = sorted[i*2].geometry.coordinates;
+      const c2 = sorted[i*2+1].geometry.coordinates;
+      leyLines.push(lineFeature([c1, clickCoord, c2]));
+    }
+
+    map.getSource('leylines').setData({
+      type: "FeatureCollection",
+      features: leyLines
+    });
+  });
+});
+</script>
+</body>
+</html>
