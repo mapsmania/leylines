@@ -88,47 +88,66 @@ map.on('load', async () => {
 
   map.on('click', e => {
     const clickedPoint = [e.lngLat.lng, e.lngLat.lat];
-    let closestPair = [];
-    let smallestAngle = Infinity;
+    let bestAngleDiff = Infinity;
+    let bestTriplet = null;
 
-    for(let i=0;i<castles.features.length;i++){
-      for(let j=i+1;j<castles.features.length;j++){
-        const p1 = castles.features[i].geometry.coordinates;
-        const p2 = castles.features[j].geometry.coordinates;
-        const angle = calculateAngle(clickedPoint, p1, p2);
-        const diff = Math.abs(180-angle);
-        if(diff < smallestAngle){
-          smallestAngle = diff;
-          closestPair = [castles.features[i], castles.features[j]];
+    // Evaluate all pairs of castles
+    for (let i = 0; i < castles.features.length; i++) {
+      for (let j = i + 1; j < castles.features.length; j++) {
+        const castle1 = castles.features[i];
+        const castle2 = castles.features[j];
+        const coords1 = castle1.geometry.coordinates;
+        const coords2 = castle2.geometry.coordinates;
+
+        // All 6 permutations of assigning A,B,C
+        const candidates = [
+          {A: clickedPoint, B: coords1, C: coords2},
+          {A: clickedPoint, B: coords2, C: coords1},
+          {A: coords1, B: clickedPoint, C: coords2},
+          {A: coords2, B: clickedPoint, C: coords1},
+          {A: coords1, B: coords2, C: clickedPoint},
+          {A: coords2, B: coords1, C: clickedPoint},
+        ];
+
+        for (const cand of candidates) {
+          const angle = calculateAngle(cand.C, cand.A, cand.B);
+          const diff = Math.abs(180 - angle);
+          if (diff < bestAngleDiff) {
+            bestAngleDiff = diff;
+            bestTriplet = {
+              A: cand.A,
+              B: cand.B,
+              C: cand.C,
+              castle1: castle1,
+              castle2: castle2
+            };
+          }
         }
       }
     }
 
-    if(closestPair.length === 2){
-      // Ley line
-      const leyLineGeoJSON = {
-        type:'FeatureCollection',
-        features: [lineFeature([closestPair[0].geometry.coordinates, clickedPoint, closestPair[1].geometry.coordinates])]
-      };
+    if (bestTriplet) {
+      // Draw ley line through A -> C -> B
+      const leyLineGeoJSON = { type:'FeatureCollection', features: [lineFeature([bestTriplet.A, bestTriplet.C, bestTriplet.B])] };
       map.getSource('ley-line').setData(leyLineGeoJSON);
 
-      // Highlight points (keep properties including name!)
+      // Highlight points: clicked location + the two castles
       const pointsGeoJSON = {
-        type:'FeatureCollection',
+        type: 'FeatureCollection',
         features: [
-          {...closestPair[0], properties: {...closestPair[0].properties, type:'castle'}},
-          {...closestPair[1], properties: {...closestPair[1].properties, type:'castle'}},
-          {...pointFeature(clickedPoint), properties:{type:'click'}}
+          {...bestTriplet.castle1, properties: {...bestTriplet.castle1.properties, type: 'castle'}},
+          {...bestTriplet.castle2, properties: {...bestTriplet.castle2.properties, type: 'castle'}},
+          {...pointFeature(clickedPoint), properties: {type:'click'}}
         ]
       };
       map.getSource('highlight-points').setData(pointsGeoJSON);
 
       // Update sidebar with actual castle names
-      const castle1Name = closestPair[0].properties.name || "Castle 1";
-      const castle2Name = closestPair[1].properties.name || "Castle 2";
+      const castle1Name = bestTriplet.castle1.properties.name || "Castle 1";
+      const castle2Name = bestTriplet.castle2.properties.name || "Castle 2";
       document.getElementById('sidebar').innerHTML = `
         <h2>Ley Line Found</h2>
-        <p>Your location lies on the ancient Ley Line between <strong>${castle1Name}</strong> and <strong>${castle2Name}</strong>. Ley lines are straight alignments between historical structures, prehistoric sites, and prominent landmarks. The concept was first proposed by Alfred Watkins in the 1920s, who theorized that these lines were ancient trade routes used by early British societies.</p>
+        <p>Your location lies on the ancient Ley Line running through <strong>${castle1Name}</strong> and <strong>${castle2Name}</strong>. Ley lines are straight alignments between historical structures, prehistoric sites, and prominent landmarks. The concept was first proposed by Alfred Watkins in the 1920s, who theorized that these lines were ancient trade routes used by early British societies.</p>
       `;
     }
   });
