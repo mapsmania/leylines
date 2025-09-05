@@ -7,86 +7,130 @@
   <link href="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css" rel="stylesheet" />
   <script src="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js"></script>
   <style>
-    body { margin: 0; padding: 0; }
-    #map { width: 100vw; height: 100vh; }
+    body, html { margin: 0; padding: 0; height: 100%; font-family: sans-serif; }
+    #container { display: flex; height: 100%; }
+    #map { flex: 1; }
+    #sidebar {
+      width: 320px;
+      padding: 15px;
+      background: #f7f7f7;
+      border-right: 1px solid #ccc;
+      overflow-y: auto;
+    }
+    h2 { margin-top: 0; }
   </style>
 </head>
 <body>
-<div id="map"></div>
+<div id="container">
+  <div id="sidebar">
+    <h2>Instructions</h2>
+    <p>Click anywhere on the map to find the nearest ley line connecting two castles. The map will highlight the two castles and show the line passing through your selected location.</p>
+  </div>
+  <div id="map"></div>
+</div>
 
 <script>
-// ---- Load map ----
-const map = new maplibregl.Map({
-  container: 'map',
-  style: 'https://tiles.openfreemap.org/styles/positron',
-  center: [-2.5, 54.5], // roughly UK
-  zoom: 6
-});
-
-// Load the castles GeoJSON
 async function loadCastles() {
-  const res = await fetch('castles.geojson'); // <-- make sure castles.geojson is served in same folder
-  return await res.json();
+  try {
+    const res = await fetch('https://mapsmania.github.io/leylines/castles.geojson');
+    if (!res.ok) throw new Error('Failed to load GeoJSON');
+    return await res.json();
+  } catch (err) {
+    console.error(err);
+    return { type: "FeatureCollection", features: [] };
+  }
 }
 
 function lineFeature(coords) {
-  return {
-    type: "Feature",
-    geometry: {
-      type: "LineString",
-      coordinates: coords
-    },
-    properties: {}
-  };
+  return { type: "Feature", geometry: { type: "LineString", coordinates: coords }, properties: {} };
 }
+
+function pointFeature(coord) {
+  return { type: "Feature", geometry: { type: "Point", coordinates: coord }, properties: {} };
+}
+
+function calculateAngle(p1, p2, p3) {
+  const dx21 = p1[0] - p2[0], dy21 = p1[1] - p2[1];
+  const dx31 = p1[0] - p3[0], dy31 = p1[1] - p3[1];
+  const a2 = dx21*dx21 + dy21*dy21, b2 = dx31*dx31 + dy31*dy31;
+  const ab = dx21*dx31 + dy21*dy31;
+  if(a2===0 || b2===0) return 0;
+  return Math.acos(ab / Math.sqrt(a2*b2)) * 180 / Math.PI;
+}
+
+const map = new maplibregl.Map({
+  container: 'map',
+  style: 'https://tiles.openfreemap.org/styles/positron',
+  center: [-2.5, 54.5],
+  zoom: 6
+});
 
 map.on('load', async () => {
   const castles = await loadCastles();
 
-  // Add castles as a circle layer
-  map.addSource('castles', { type: 'geojson', data: castles });
+  // Ley line source and layer
+  map.addSource('ley-line', { type: 'geojson', data: { type:'FeatureCollection', features: [] } });
+  map.addLayer({ id: 'ley-line-layer', type: 'line', source: 'ley-line', paint: { 'line-color': '#00f', 'line-width': 3 } });
+
+  // Highlight points source and layer
+  map.addSource('highlight-points', { type: 'geojson', data: { type:'FeatureCollection', features: [] } });
   map.addLayer({
-    id: 'castles-layer',
+    id: 'highlight-points-layer',
     type: 'circle',
-    source: 'castles',
-    paint: { 'circle-radius': 5, 'circle-color': '#b00' }
+    source: 'highlight-points',
+    paint: {
+      'circle-radius': 6,
+      'circle-color': ['match', ['get', 'type'], 'castle', '#b00', 'click', '#0f0', '#000'],
+      'circle-stroke-width': 1,
+      'circle-stroke-color': '#fff'
+    }
   });
 
-  // Empty ley line source
-  map.addSource('leylines', { type: 'geojson', data: { type: "FeatureCollection", features: [] } });
-  map.addLayer({
-    id: 'leylines-layer',
-    type: 'line',
-    source: 'leylines',
-    paint: { 'line-color': '#0080ff', 'line-width': 2 }
-  });
+  map.on('click', e => {
+    const clickedPoint = [e.lngLat.lng, e.lngLat.lat];
+    let closestPair = [];
+    let smallestAngle = Infinity;
 
-  // When user clicks, compute 3 ley lines
-  map.on('click', (e) => {
-    const clickCoord = [e.lngLat.lng, e.lngLat.lat];
-    const features = castles.features;
-
-    // Sort castles by distance to click
-    const sorted = features.slice().sort((a, b) => {
-      const dx1 = a.geometry.coordinates[0] - clickCoord[0];
-      const dy1 = a.geometry.coordinates[1] - clickCoord[1];
-      const dx2 = b.geometry.coordinates[0] - clickCoord[0];
-      const dy2 = b.geometry.coordinates[1] - clickCoord[1];
-      return (dx1*dx1 + dy1*dy1) - (dx2*dx2 + dy2*dy2);
-    });
-
-    // Pick 6 nearest castles and form 3 lines through click + 2 castles
-    const leyLines = [];
-    for (let i = 0; i < 3; i++) {
-      const c1 = sorted[i*2].geometry.coordinates;
-      const c2 = sorted[i*2+1].geometry.coordinates;
-      leyLines.push(lineFeature([c1, clickCoord, c2]));
+    for(let i=0;i<castles.features.length;i++){
+      for(let j=i+1;j<castles.features.length;j++){
+        const p1 = castles.features[i].geometry.coordinates;
+        const p2 = castles.features[j].geometry.coordinates;
+        const angle = calculateAngle(clickedPoint, p1, p2);
+        const diff = Math.abs(180-angle);
+        if(diff < smallestAngle){
+          smallestAngle = diff;
+          closestPair = [castles.features[i], castles.features[j]];
+        }
+      }
     }
 
-    map.getSource('leylines').setData({
-      type: "FeatureCollection",
-      features: leyLines
-    });
+    if(closestPair.length === 2){
+      // Ley line
+      const leyLineGeoJSON = {
+        type:'FeatureCollection',
+        features: [lineFeature([closestPair[0].geometry.coordinates, clickedPoint, closestPair[1].geometry.coordinates])]
+      };
+      map.getSource('ley-line').setData(leyLineGeoJSON);
+
+      // Highlight points (keep properties including name!)
+      const pointsGeoJSON = {
+        type:'FeatureCollection',
+        features: [
+          {...closestPair[0], properties: {...closestPair[0].properties, type:'castle'}},
+          {...closestPair[1], properties: {...closestPair[1].properties, type:'castle'}},
+          {...pointFeature(clickedPoint), properties:{type:'click'}}
+        ]
+      };
+      map.getSource('highlight-points').setData(pointsGeoJSON);
+
+      // Update sidebar with actual castle names
+      const castle1Name = closestPair[0].properties.name || "Castle 1";
+      const castle2Name = closestPair[1].properties.name || "Castle 2";
+      document.getElementById('sidebar').innerHTML = `
+        <h2>Ley Line Found</h2>
+        <p>Your location lies on the ancient Ley Line between <strong>${castle1Name}</strong> and <strong>${castle2Name}</strong>. Ley lines are straight alignments between historical structures, prehistoric sites, and prominent landmarks. The concept was first proposed by Alfred Watkins in the 1920s, who theorized that these lines were ancient trade routes used by early British societies.</p>
+      `;
+    }
   });
 });
 </script>
