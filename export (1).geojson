@@ -1,0 +1,2702 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-09-06T18:26:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26944730",
+        "historic": "stone",
+        "name": "Goldstone",
+        "tourism": "attraction",
+        "wikimedia_commons": "File:Goldstone in Hove Park.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1737027,
+          50.8394657
+        ]
+      },
+      "id": "node/26944730"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/259780269",
+        "historic": "stone",
+        "name": "The Bellstone",
+        "natural": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7572071,
+          52.7074672
+        ]
+      },
+      "id": "node/259780269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/269231952",
+        "historic": "stone",
+        "name": "The Face Stone",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.082012,
+          54.404964
+        ]
+      },
+      "id": "node/269231952"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/430593044",
+        "historic": "stone",
+        "name": "The Standon Puddingstone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0268464,
+          51.8807511
+        ]
+      },
+      "id": "node/430593044"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/443265231",
+        "historic": "stone",
+        "name": "Maen Penddu",
+        "wikidata": "Q20597038",
+        "wikipedia": "cy:Maen Penddu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8911772,
+          53.2441951
+        ]
+      },
+      "id": "node/443265231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/453647116",
+        "format": "stone_cross",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.5726876,
+          50.6391368
+        ]
+      },
+      "id": "node/453647116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/667028005",
+        "historic": "stone",
+        "name": "Loupin Stane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1887562,
+          57.2013017
+        ]
+      },
+      "id": "node/667028005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/747741379",
+        "historic": "stone",
+        "inscription": "W:H Horncliff well",
+        "man_made": "boundary_stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8004058,
+          53.8860729
+        ]
+      },
+      "id": "node/747741379"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1042881285",
+        "PMSA_ref": "WMbiBIxx130",
+        "artist_name": "Gordon Herickx",
+        "artwork:material": "Stone, polychrome",
+        "artwork_type": "coat_of_arms",
+        "heritage": "2",
+        "heritage:operator": "Historic England",
+        "historic": "stone",
+        "listed_status": "Grade II",
+        "name": "Heraldic Shield",
+        "note": "Coat of Arms is that of the Barber family",
+        "start_date": "~1936..1937",
+        "stone_type": "coat_of_arms",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9274044,
+          52.4504026
+        ]
+      },
+      "id": "node/1042881285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1042881311",
+        "PMSA_ref": "WMbiBIxx130",
+        "artist_name": "Gordon Herickx",
+        "artwork:material": "Stone, polychrome",
+        "artwork_type": "coat_of_arms",
+        "heritage": "2",
+        "heritage:operator": "Historic England",
+        "historic": "stone",
+        "listed_status": "Grade II",
+        "name": "Heraldic Shield",
+        "note": "Coat of Arms is that of the University",
+        "start_date": "~1936..1937",
+        "stone_type": "coat_of_arms",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9273938,
+          52.4504267
+        ]
+      },
+      "id": "node/1042881311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1207781882",
+        "alt_name": "Megstone",
+        "historic": "stone",
+        "name": "Meg's Stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.4730669,
+          57.4367813
+        ]
+      },
+      "id": "node/1207781882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1259434451",
+        "alt_name": "Rocking Stone",
+        "geological": "balancing_rock",
+        "historic": "stone",
+        "name": "Logan Stone",
+        "natural": "stone",
+        "source": "OS OpenData StreetView"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.601016,
+          51.7717106
+        ]
+      },
+      "id": "node/1259434451"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1352886214",
+        "heritage": "yes",
+        "historic": "stone",
+        "moved": "yes",
+        "name": "Rodney's Stone",
+        "stone": "sandstone",
+        "stone_type": "pictish_stone",
+        "tourism": "attraction",
+        "website": "https://canmore.org.uk/site/15529/brodie-rodneys-stone",
+        "wikidata": "Q2161205",
+        "wikipedia": "en:Rodney's Stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7010939,
+          57.5975356
+        ]
+      },
+      "id": "node/1352886214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1798466426",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0973397,
+          50.6019651
+        ]
+      },
+      "id": "node/1798466426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1870478212",
+        "historic": "stone",
+        "name": "Eagle Stone",
+        "name:gd": "Clach an Tiompain",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.536416,
+          57.5911122
+        ]
+      },
+      "id": "node/1870478212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1880103307",
+        "historic": "stone",
+        "source": "http://www.geograph.org.uk/photo/3569734"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6634975,
+          53.546742
+        ]
+      },
+      "id": "node/1880103307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2645642532",
+        "historic": "stone",
+        "name": "Craw Stane",
+        "natural": "stone",
+        "ref:canmore": "17199",
+        "website": "https://www.megalithic.co.uk/article.php?sid=12063"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.8365905,
+          57.3248632
+        ]
+      },
+      "id": "node/2645642532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2672772065",
+        "alt_name": "Colby St Giles",
+        "historic": "stone",
+        "inscription": "Roman Stone",
+        "man_made": "village_sign",
+        "material": "metal",
+        "name": "Colby St. Giles Village Sign",
+        "note": "Recorded in Doomsday Book 1086",
+        "sign": "yes",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2936587,
+          52.834123
+        ]
+      },
+      "id": "node/2672772065"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2930047950",
+        "historic": "stone",
+        "name": "'St. Columba's Footprints'",
+        "note": "the impressions of two human feet and a date can be seen cut into the level surface of a small natural rock-outcrop.  Each imprint represents the rough impression of a shod right foot, and between them the figures 564 have been crudely incised in Arabic",
+        "note_1": "numerals are not likely to be earlier than the 16th century. The date of the southern footprint is uncertain, but it may be as early as the end of the 1st Millennium BC.",
+        "source": "http://canmore.rcahms.gov.uk/en/site/318860/details/southend+st+columba+s+church+and+priest+s+well/",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.6686443,
+          55.3081937
+        ]
+      },
+      "id": "node/2930047950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2981266215",
+        "historic": "stone",
+        "name": "Manga Rock",
+        "stone": "granite",
+        "website": "https://www.legendarydartmoor.co.uk/manga_rock.htm",
+        "wpt_symbol": "Dot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9308513,
+          50.6557354
+        ]
+      },
+      "id": "node/2981266215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3128278965",
+        "historic": "stone",
+        "inscription": "This remnant of the ancient churchyard cross was restored ad 1900 in Memoriam R H J Gurney",
+        "stone_type": "churchyard_cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2945019,
+          52.831824
+        ]
+      },
+      "id": "node/3128278965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3266180516",
+        "historic": "stone",
+        "note": "Believed to be a 'mounting stone' - to assist getting on a horse. Another possibility is that it's a 'stop' to rest a cart-wheel against to stop the cart rolling down the hill."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2744679,
+          54.2118752
+        ]
+      },
+      "id": "node/3266180516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3416340894",
+        "heritage": "2",
+        "heritage:operator": "he",
+        "heritage:website": "https://historicengland.org.uk/listing/the-list/list-entry/1137825",
+        "historic": "stone",
+        "name": "The Plague Stone",
+        "ref:he": "1137825",
+        "stone_type": "plague_stone",
+        "tourism": "attraction",
+        "wheelchair": "yes",
+        "wikidata": "Q17542964"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.746272,
+          54.6587444
+        ]
+      },
+      "id": "node/3416340894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3627625860",
+        "description": "A roman pillar taken from the villa of Roman Emperor Antoninus by Lord John Savile.",
+        "historic": "stone",
+        "material": "granite",
+        "name": "The Antoninus Pillar",
+        "website": "http://www.bajrfed.co.uk/bajrpress/rufford-abbey-and-the-antoninus-pillar/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0332233,
+          53.1748414
+        ]
+      },
+      "id": "node/3627625860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3770304383",
+        "alt_name": "Saltstone",
+        "historic": "stone",
+        "name": "Salt Stone",
+        "note": "Historic meeting place of stannary parliament",
+        "place": "locality"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7592061,
+          50.2536633
+        ]
+      },
+      "id": "node/3770304383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4005452078",
+        "historic": "stone",
+        "name": "Hermit's Cave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5531876,
+          53.1535954
+        ]
+      },
+      "id": "node/4005452078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4371033748",
+        "description": "Pictish cross-slab, inside church",
+        "heritage:operator": "Historic Environment Scotland",
+        "heritage:website": "https://portal.historicenvironment.scot/designation/SM1680",
+        "historic": "stone",
+        "indoor": "yes",
+        "name": "Nigg Stone",
+        "ref:GB:hs": "SM1680",
+        "wikidata": "Q1989683",
+        "wikipedia": "en:Nigg Stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0088282,
+          57.7191009
+        ]
+      },
+      "id": "node/4371033748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4764536124",
+        "barrier": "bollard",
+        "historic": "stone",
+        "natural": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1598681,
+          56.2153696
+        ]
+      },
+      "id": "node/4764536124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4764537772",
+        "historic": "stone",
+        "name": "Balbirnie Stone Circle (modern)",
+        "natural": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1528958,
+          56.2137843
+        ]
+      },
+      "id": "node/4764537772"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4764541606",
+        "historic": "stone",
+        "natural": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1527895,
+          56.2138704
+        ]
+      },
+      "id": "node/4764541606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4764541609",
+        "historic": "stone",
+        "natural": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1528416,
+          56.2138926
+        ]
+      },
+      "id": "node/4764541609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4764541612",
+        "barrier": "bollard",
+        "historic": "stone",
+        "natural": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.159693,
+          56.2152776
+        ]
+      },
+      "id": "node/4764541612"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4764541944",
+        "historic": "stone",
+        "natural": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1527824,
+          56.2137978
+        ]
+      },
+      "id": "node/4764541944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4764542256",
+        "historic": "stone",
+        "natural": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.152838,
+          56.2137835
+        ]
+      },
+      "id": "node/4764542256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4764542257",
+        "historic": "stone",
+        "natural": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1529592,
+          56.2138724
+        ]
+      },
+      "id": "node/4764542257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4764542258",
+        "historic": "stone",
+        "natural": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1529065,
+          56.2138938
+        ]
+      },
+      "id": "node/4764542258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4764542433",
+        "historic": "stone",
+        "natural": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1527689,
+          56.2138343
+        ]
+      },
+      "id": "node/4764542433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4764548463",
+        "historic": "stone",
+        "natural": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1528943,
+          56.213818
+        ]
+      },
+      "id": "node/4764548463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4895839964",
+        "historic": "stone",
+        "name": "Craigallian Fire"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3498269,
+          55.9750559
+        ]
+      },
+      "id": "node/4895839964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4938276644",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.6691025,
+          52.4955586
+        ]
+      },
+      "id": "node/4938276644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5024562735",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0900311,
+          52.4134344
+        ]
+      },
+      "id": "node/5024562735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5024562736",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0899332,
+          52.4134361
+        ]
+      },
+      "id": "node/5024562736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5024562737",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.089858,
+          52.4133919
+        ]
+      },
+      "id": "node/5024562737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5024562738",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0898178,
+          52.4133494
+        ]
+      },
+      "id": "node/5024562738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5024562739",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0898661,
+          52.4132929
+        ]
+      },
+      "id": "node/5024562739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5024562740",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0898835,
+          52.4132397
+        ]
+      },
+      "id": "node/5024562740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5024562741",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.089968,
+          52.4132193
+        ]
+      },
+      "id": "node/5024562741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5024562742",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0900592,
+          52.4132299
+        ]
+      },
+      "id": "node/5024562742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5024562743",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.090129,
+          52.4132618
+        ]
+      },
+      "id": "node/5024562743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5024562744",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0901652,
+          52.4133142
+        ]
+      },
+      "id": "node/5024562744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5024562745",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0901531,
+          52.4133608
+        ]
+      },
+      "id": "node/5024562745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5024562746",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0901021,
+          52.4134082
+        ]
+      },
+      "id": "node/5024562746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5024562747",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0897615,
+          52.4132782
+        ]
+      },
+      "id": "node/5024562747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5024562748",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0897266,
+          52.4132806
+        ]
+      },
+      "id": "node/5024562748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5182058183",
+        "historic": "stone",
+        "image": "http://www.geograph.org.uk/photo/217983",
+        "inscription": "St Veep 2000",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.6192911,
+          50.3718416
+        ]
+      },
+      "id": "node/5182058183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5184403915",
+        "historic": "stone",
+        "name": "Spider's Web Stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3890336,
+          55.3291082
+        ]
+      },
+      "id": "node/5184403915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5228838975",
+        "historic": "stone",
+        "man_made": "cross",
+        "wikidata": "Q5093595",
+        "wikipedia": "en:Chester High Cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.8916422,
+          53.190299
+        ]
+      },
+      "id": "node/5228838975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5426945306",
+        "historic": "stone",
+        "name": "Pandy standing stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.5446911,
+          52.8608632
+        ]
+      },
+      "id": "node/5426945306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5426947902",
+        "historic": "stone",
+        "name": "Llech-y-Doll burial chamber",
+        "wikidata": "Q13127106"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.5217831,
+          52.7824778
+        ]
+      },
+      "id": "node/5426947902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5600522356",
+        "historic": "stone",
+        "name": "Old Woman Stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6707567,
+          53.3586915
+        ]
+      },
+      "id": "node/5600522356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5600522358",
+        "historic": "stone",
+        "note": "old stone fence post"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6788805,
+          53.3623111
+        ]
+      },
+      "id": "node/5600522358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5600522359",
+        "historic": "stone",
+        "note": "old stone fence post"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6792184,
+          53.3631402
+        ]
+      },
+      "id": "node/5600522359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5600522360",
+        "historic": "stone",
+        "note": "old stone fence post"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6794947,
+          53.3639341
+        ]
+      },
+      "id": "node/5600522360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5600522361",
+        "historic": "stone",
+        "note": "old stone fence post"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6798165,
+          53.3646879
+        ]
+      },
+      "id": "node/5600522361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5600522362",
+        "historic": "stone",
+        "note": "old stone fence post"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6801237,
+          53.3655298
+        ]
+      },
+      "id": "node/5600522362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5600522363",
+        "historic": "stone",
+        "note": "old stone fence post"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6805998,
+          53.3663236
+        ]
+      },
+      "id": "node/5600522363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5600522364",
+        "historic": "stone",
+        "note": "old stone fence post"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6808291,
+          53.3671198
+        ]
+      },
+      "id": "node/5600522364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5911580482",
+        "historic": "stone",
+        "name": "Hen and Chicks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.6338962,
+          50.3768136
+        ]
+      },
+      "id": "node/5911580482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6061445487",
+        "historic": "stone",
+        "material": "stone",
+        "name": "Burnmouth",
+        "source": "survey",
+        "traffic_sign": "city_limit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0766132,
+          55.8449622
+        ]
+      },
+      "id": "node/6061445487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6069755189",
+        "historic": "stone",
+        "name": "Hangman's Stone",
+        "note": "Site of old gallows"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8733944,
+          51.8345874
+        ]
+      },
+      "id": "node/6069755189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6120857202",
+        "historic": "stone",
+        "natural": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.112084,
+          55.6867324
+        ]
+      },
+      "id": "node/6120857202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6120857203",
+        "historic": "stone",
+        "natural": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1120049,
+          55.6867339
+        ]
+      },
+      "id": "node/6120857203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6120857204",
+        "historic": "stone",
+        "natural": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.111962,
+          55.686752
+        ]
+      },
+      "id": "node/6120857204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6120857205",
+        "historic": "stone",
+        "natural": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1119647,
+          55.6867929
+        ]
+      },
+      "id": "node/6120857205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6120857206",
+        "historic": "stone",
+        "natural": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1120518,
+          55.686808
+        ]
+      },
+      "id": "node/6120857206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6210398038",
+        "description": "Uninscribed possible boundary marker",
+        "historic": "stone",
+        "inscription": "no",
+        "material": "granite"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2817284,
+          52.7355076
+        ]
+      },
+      "id": "node/6210398038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6478209368",
+        "collection": "no",
+        "heritage": "no",
+        "historic": "stone",
+        "name": "Carn Pheigith"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0522425,
+          57.013995
+        ]
+      },
+      "id": "node/6478209368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6609301819",
+        "historic": "stone",
+        "name": "Standing Stone",
+        "wikidata": "Q56661620"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.599296,
+          55.4320226
+        ]
+      },
+      "id": "node/6609301819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6641993740",
+        "historic": "stone",
+        "note": "Part of a relatively modern stone circle created for the National Eisteddfod in 1963"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8307752,
+          53.330193
+        ]
+      },
+      "id": "node/6641993740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6641993741",
+        "historic": "stone",
+        "note": "Part of a relatively modern stone circle created for the National Eisteddfod in 1963"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.830865,
+          53.3301754
+        ]
+      },
+      "id": "node/6641993741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6641993742",
+        "historic": "stone",
+        "note": "Part of a relatively modern stone circle created for the National Eisteddfod in 1963"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8309589,
+          53.3301762
+        ]
+      },
+      "id": "node/6641993742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6641993743",
+        "historic": "stone",
+        "note": "Part of a relatively modern stone circle created for the National Eisteddfod in 1963"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8310327,
+          53.3302106
+        ]
+      },
+      "id": "node/6641993743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6641993744",
+        "historic": "stone",
+        "note": "Part of a relatively modern stone circle created for the National Eisteddfod in 1963"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8310729,
+          53.3302667
+        ]
+      },
+      "id": "node/6641993744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6641993745",
+        "historic": "stone",
+        "note": "Part of a relatively modern stone circle created for the National Eisteddfod in 1963"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8310595,
+          53.330326
+        ]
+      },
+      "id": "node/6641993745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6641993746",
+        "historic": "stone",
+        "note": "Part of a relatively modern stone circle created for the National Eisteddfod in 1963"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8309991,
+          53.3303684
+        ]
+      },
+      "id": "node/6641993746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6641993747",
+        "historic": "stone",
+        "note": "Part of a relatively modern stone circle created for the National Eisteddfod in 1963"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.830916,
+          53.330394
+        ]
+      },
+      "id": "node/6641993747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6641993748",
+        "historic": "stone",
+        "note": "Part of a relatively modern stone circle created for the National Eisteddfod in 1963"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8308181,
+          53.3303796
+        ]
+      },
+      "id": "node/6641993748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6641993749",
+        "historic": "stone",
+        "note": "Part of a relatively modern stone circle created for the National Eisteddfod in 1963"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8307269,
+          53.330326
+        ]
+      },
+      "id": "node/6641993749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6641993750",
+        "historic": "stone",
+        "note": "Part of a relatively modern stone circle created for the National Eisteddfod in 1963"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8307121,
+          53.3302595
+        ]
+      },
+      "id": "node/6641993750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6708089232",
+        "historic": "stone",
+        "name": "Cromlech"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2140737,
+          51.1879092
+        ]
+      },
+      "id": "node/6708089232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6904883328",
+        "historic": "stone",
+        "inscription": "Tome Stone, historic bartoring stone used by merchants."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0614056,
+          51.0791358
+        ]
+      },
+      "id": "node/6904883328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6906301191",
+        "historic": "stone",
+        "inscription": "Ancient stone with writing chiselled onto the surface threatening a curse on anyone that moves the stone.",
+        "name": "Written Stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5695728,
+          53.8359814
+        ]
+      },
+      "id": "node/6906301191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6943948905",
+        "alt_name": "Corbalengi Stone",
+        "description": "Inscribed stone approx 0.6 by 0.75m in section and 1.45m high.  Inscription translates as [The stone of] Corbalengus.  [Here] he lies, an Ordovician.",
+        "heritage": "2",
+        "heritage:operator": "cadw",
+        "historic": "stone",
+        "historic:civilization": "roman",
+        "inscription": "CORBALENGI IACIT / ORDOUS",
+        "name": "Dyffryn-Bern Stone",
+        "ref:cadw": "CD049",
+        "url": "https://www.coflein.gov.uk/en/site/304135/details/corbalengi-stone-dyffryn-bern-inscribed-stoneordovices-stone",
+        "wikidata": "Q20596987",
+        "wikimedia_commons": "File:Corbalengi Stone - geograph.org.uk - 40156.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.5013337,
+          52.1340827
+        ]
+      },
+      "id": "node/6943948905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6967722580",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.251876,
+          54.3978411
+        ]
+      },
+      "id": "node/6967722580"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6981801579",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2318519,
+          54.404718
+        ]
+      },
+      "id": "node/6981801579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6981831192",
+        "description": "f (on e) a (on w) with dy in small above",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2179134,
+          54.4055616
+        ]
+      },
+      "id": "node/6981831192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6985890191",
+        "historic": "stone",
+        "inscription": "E"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1618257,
+          54.4231493
+        ]
+      },
+      "id": "node/6985890191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6985920623",
+        "historic": "stone",
+        "inscription": "AS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1769937,
+          54.4229068
+        ]
+      },
+      "id": "node/6985920623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7004746029",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.089088,
+          54.4062643
+        ]
+      },
+      "id": "node/7004746029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7004746100",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0986689,
+          54.41275
+        ]
+      },
+      "id": "node/7004746100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7004746106",
+        "historic": "stone",
+        "source": "View from path;Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1028908,
+          54.4160527
+        ]
+      },
+      "id": "node/7004746106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7004746107",
+        "historic": "stone",
+        "source": "View from path;Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.104822,
+          54.4155532
+        ]
+      },
+      "id": "node/7004746107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7004747815",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.095418,
+          54.4086884
+        ]
+      },
+      "id": "node/7004747815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7004747907",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0711442,
+          54.4056442
+        ]
+      },
+      "id": "node/7004747907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7004755694",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0920116,
+          54.4072631
+        ]
+      },
+      "id": "node/7004755694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7004755696",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0936102,
+          54.4079593
+        ]
+      },
+      "id": "node/7004755696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7004771926",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0739738,
+          54.4054585
+        ]
+      },
+      "id": "node/7004771926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7004826779",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0596187,
+          54.4125487
+        ]
+      },
+      "id": "node/7004826779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7078651717",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9549643,
+          54.4063008
+        ]
+      },
+      "id": "node/7078651717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7078651746",
+        "historic": "stone",
+        "inscription": "Rosedale Rode North"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9562556,
+          54.3898354
+        ]
+      },
+      "id": "node/7078651746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7078651748",
+        "historic": "stone",
+        "inscription": "TD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9588144,
+          54.3951747
+        ]
+      },
+      "id": "node/7078651748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7089341981",
+        "historic": "stone",
+        "inscription": "ST. VINCENTS CROSS\nFormerly stood 15.25m due west of this stone. In March 1900 it was removed and re-erected 260m to the North at St Vincent's Cross Farm",
+        "material": "stone",
+        "memorial": "stone",
+        "name": "Original site of St Vincent's Cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1433077,
+          52.6461931
+        ]
+      },
+      "id": "node/7089341981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7128506880",
+        "description": "Bronze age standing stone with Pictish symbols.",
+        "historic": "stone",
+        "name": "Thief's Stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2143165,
+          57.6916369
+        ]
+      },
+      "id": "node/7128506880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7474748805",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.1055455,
+          50.0478883
+        ]
+      },
+      "id": "node/7474748805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7568872405",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2257117,
+          55.9226967
+        ]
+      },
+      "id": "node/7568872405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7575377131",
+        "description": "Flat stone on ground by roads through former RAF Chigwell base commemorating Operation Intone",
+        "format": "squared_stone",
+        "historic": "stone",
+        "inscription": "Intone",
+        "name": "Intone Stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.070003,
+          51.63375
+        ]
+      },
+      "id": "node/7575377131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7807234322",
+        "heritage": "yes",
+        "historic": "stone",
+        "wikidata": "Q17650603"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7398819,
+          53.1321665
+        ]
+      },
+      "id": "node/7807234322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8158185610",
+        "description": "Historic Stone",
+        "historic": "stone",
+        "name": "Lower Drift Cross",
+        "website": "https://m.megalithic.co.uk/article.php?sid=46041"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.584909,
+          50.1036014
+        ]
+      },
+      "id": "node/8158185610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8284174340",
+        "historic": "stone",
+        "image": "https://www.geograph.org.uk/photo/733677",
+        "name": "Butter Stone",
+        "note": "butter stone believed to have been in use in medieval times",
+        "wikidata": "Q26414235"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0019753,
+          54.5607076
+        ]
+      },
+      "id": "node/8284174340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8320755308",
+        "alt_name": "Coronation Stone (Belstone)",
+        "heritage": "yes",
+        "historic": "stone",
+        "material": "stone",
+        "name": "Coronation Stone",
+        "wikidata": "Q26400017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9562905,
+          50.7256028
+        ]
+      },
+      "id": "node/8320755308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8615755253",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1524406,
+          52.3633597
+        ]
+      },
+      "id": "node/8615755253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8758752192",
+        "historic": "stone",
+        "name": "Loupin Stane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.1759827,
+          55.7649644
+        ]
+      },
+      "id": "node/8758752192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8807249207",
+        "historic": "stone",
+        "name": "Killievair Stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7173376,
+          56.7376567
+        ]
+      },
+      "id": "node/8807249207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8917072393",
+        "historic": "stone",
+        "name": "Hobajon's Cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8946792,
+          50.4287818
+        ]
+      },
+      "id": "node/8917072393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8917072394",
+        "historic": "stone",
+        "name": "Longstone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8959486,
+          50.4310684
+        ]
+      },
+      "id": "node/8917072394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8933392272",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1867518,
+          51.1408039
+        ]
+      },
+      "id": "node/8933392272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8968847107",
+        "description": "Uninscribed possible boundary marker",
+        "historic": "stone",
+        "inscription": "no",
+        "material": "granite"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2755002,
+          52.7483226
+        ]
+      },
+      "id": "node/8968847107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8989460033",
+        "format": "irregular",
+        "height": "2",
+        "historic": "stone",
+        "moved": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.310265,
+          55.8960285
+        ]
+      },
+      "id": "node/8989460033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9008691095",
+        "description": "Cup marked stone",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7431797,
+          56.7839182
+        ]
+      },
+      "id": "node/9008691095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9156373467",
+        "historic": "stone",
+        "name": "Heights of Fodderty Stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.4795256,
+          57.6150886
+        ]
+      },
+      "id": "node/9156373467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9309641186",
+        "description": "Stone marking the grave of an unknown Civil War rebel.",
+        "historic": "stone",
+        "inscription": "Here lyeth a rebel 1746",
+        "name": "The Rebel Stone",
+        "source": "local knowledge;https://nottinghamhiddenhistoryteam.wordpress.com/2013/03/11/tuxford-and-the-rebel-stone/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.8847851,
+          53.2235975
+        ]
+      },
+      "id": "node/9309641186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9729754455",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0620419,
+          55.8670364
+        ]
+      },
+      "id": "node/9729754455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9813252178",
+        "historic": "stone",
+        "name": "Cerrig Meibion Arthur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.739399,
+          51.9457626
+        ]
+      },
+      "id": "node/9813252178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9833999248",
+        "historic": "stone",
+        "name": "Clach-a-charra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.2262667,
+          56.7016864
+        ]
+      },
+      "id": "node/9833999248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9902957044",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.495679,
+          55.5148277
+        ]
+      },
+      "id": "node/9902957044"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10584486703",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9284407,
+          55.1404374
+        ]
+      },
+      "id": "node/10584486703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10605909033",
+        "historic": "stone",
+        "name": "Saint Bride's Well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7435622,
+          51.1415255
+        ]
+      },
+      "id": "node/10605909033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10814303532",
+        "historic": "stone",
+        "name": "Zennor Plague Stone",
+        "wikidata": "Q117717204"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.5681287,
+          50.1907004
+        ]
+      },
+      "id": "node/10814303532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10822538682",
+        "description": "Date unknown. Irregular sarsen stone set in the paving. Traditionally giving the locality its name. Transferred to present site in 1934.",
+        "format": "irregular",
+        "heritage": "2",
+        "heritage:operator": "Historic England",
+        "heritage:website": "https://historicengland.org.uk/listing/the-list/list-entry/1286172?section=official-list-entry",
+        "historic": "stone",
+        "listed_status": "Grade II",
+        "moved": "yes",
+        "name": "The Weald Stone",
+        "protected": "yes",
+        "ref:GB:nhle": "1286172",
+        "wikidata": "Q26574798"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3396451,
+          51.6044857
+        ]
+      },
+      "id": "node/10822538682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11180613604",
+        "historic": "stone",
+        "natural": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.1544561,
+          57.5731258
+        ]
+      },
+      "id": "node/11180613604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11180689300",
+        "description:en": "Mentioned in Shakespeare's Macbeth",
+        "historic": "stone",
+        "name": "Witches' Stone",
+        "natural": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3662201,
+          56.4690785
+        ]
+      },
+      "id": "node/11180689300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11252019453",
+        "HE_ref": "1483247",
+        "description": "Travellers' rest stone",
+        "historic": "stone",
+        "listed_status": "Grade II"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6101194,
+          53.4421604
+        ]
+      },
+      "id": "node/11252019453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11479034676",
+        "description": "Stone inscribed with GR (Georgius Rex)",
+        "historic": "stone",
+        "inscription": "GR",
+        "wikimedia_commons": "File:Georgius_Rex.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7133603,
+          56.0488657
+        ]
+      },
+      "id": "node/11479034676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11630321591",
+        "historic": "stone",
+        "name": "Catholes Stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1228292,
+          53.7323748
+        ]
+      },
+      "id": "node/11630321591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11654892813",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0759024,
+          50.6940085
+        ]
+      },
+      "id": "node/11654892813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11739055928",
+        "historic": "stone",
+        "name": "Cairn in circle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7773867,
+          52.2824499
+        ]
+      },
+      "id": "node/11739055928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11739069702",
+        "historic": "stone",
+        "name": "Quartz waymarker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7780685,
+          52.2824112
+        ]
+      },
+      "id": "node/11739069702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11739088230",
+        "historic": "stone",
+        "name": "Quartz Marker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7786335,
+          52.282375
+        ]
+      },
+      "id": "node/11739088230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11809870192",
+        "historic": "stone",
+        "name": "Standing Stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.023455,
+          51.9541883
+        ]
+      },
+      "id": "node/11809870192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12033041891",
+        "historic": "stone",
+        "name": "Samson Stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8707953,
+          52.3247225
+        ]
+      },
+      "id": "node/12033041891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12062951065",
+        "access": "private",
+        "historic": "stone",
+        "name": "Fedw Standing stone",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8778994,
+          52.3258711
+        ]
+      },
+      "id": "node/12062951065"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12069830409",
+        "historic": "stone",
+        "name": "Standing Stone",
+        "natural": "peak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8847478,
+          52.3265418
+        ]
+      },
+      "id": "node/12069830409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12193038102",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8590068,
+          52.3168956
+        ]
+      },
+      "id": "node/12193038102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12313911809",
+        "historic": "stone",
+        "inscription": "Devils stone circle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2672893,
+          52.0520917
+        ]
+      },
+      "id": "node/12313911809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12321448101",
+        "historic": "stone",
+        "name": "Maen Arthur",
+        "name:cy": "Maen Arthur",
+        "wikimedia_commons": "File:Maen Arthur - the Story of Arthur's stone, the Bandit, the miners, and the Dynamite.webm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8615388,
+          52.336701
+        ]
+      },
+      "id": "node/12321448101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12670694305",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.868727,
+          54.6362399
+        ]
+      },
+      "id": "node/12670694305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12809546188",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8901693,
+          53.2274341
+        ]
+      },
+      "id": "node/12809546188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13022713302",
+        "historic": "stone",
+        "name": "Kissing Stones"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.6790321,
+          56.2273554
+        ]
+      },
+      "id": "node/13022713302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13058521824",
+        "historic": "stone",
+        "inscription": "[?] The Conduit [?] 1753"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2890592,
+          51.7426014
+        ]
+      },
+      "id": "node/13058521824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13061792493",
+        "historic": "stone",
+        "name": "Roman Steps"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8563911,
+          52.5864173
+        ]
+      },
+      "id": "node/13061792493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13061893976",
+        "historic": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8690465,
+          52.5691656
+        ]
+      },
+      "id": "node/13061893976"
+    }
+  ]
+}
