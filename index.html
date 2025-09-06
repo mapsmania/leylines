@@ -7,17 +7,55 @@
   <link href="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css" rel="stylesheet" />
   <script src="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js"></script>
   <style>
-    body, html { margin: 0; padding: 0; height: 100%; font-family: sans-serif; }
-    #container { display: flex; height: 100%; }
-    #map { flex: 1; }
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: sans-serif;
+      box-sizing: border-box; /* Ensures padding/border is included in height/width */
+    }
+    #container {
+      display: flex;
+      flex-direction: row; /* Default for desktop */
+      height: 100%;
+    }
+    #map {
+      flex: 1;
+      height: 100%; /* Ensure map fills available space */
+    }
     #sidebar {
       width: 320px;
+      min-width: 300px;
       padding: 15px;
       background: #f7f7f7;
       border-right: 1px solid #ccc;
       overflow-y: auto;
+      box-sizing: border-box;
+      flex-shrink: 0;
     }
-    h2 { margin-top: 0; }
+    h2 {
+      margin-top: 0;
+    }
+    /* Mobile-first layout adjustments */
+    @media (max-width: 768px) {
+      #container {
+        flex-direction: column-reverse; /* Stack elements, map on top */
+        height: auto;
+        min-height: 100vh; /* Minimum height for mobile */
+      }
+      #sidebar {
+        width: 100%;
+        min-width: auto;
+        border-right: none;
+        border-top: 1px solid #ccc;
+        flex-shrink: 1; /* Allow sidebar to shrink */
+        order: 2; /* Ensures sidebar appears below map */
+      }
+      #map {
+        height: 70vh; /* Set a fixed height for the map on smaller screens */
+        order: 1; /* Ensures map appears above sidebar */
+      }
+    }
   </style>
 </head>
 <body>
@@ -52,28 +90,28 @@ function pointFeature(coord) {
 function calculateAngle(p1, p2, p3) {
   const dx21 = p1[0] - p2[0], dy21 = p1[1] - p2[1];
   const dx31 = p1[0] - p3[0], dy31 = p1[1] - p3[1];
-  const a2 = dx21*dx21 + dy21*dy21, b2 = dx31*dx31 + dy31*dy31;
-  const ab = dx21*dx31 + dy21*dy31;
-  if(a2===0 || b2===0) return 0;
-  return Math.acos(ab / Math.sqrt(a2*b2)) * 180 / Math.PI;
+  const a2 = dx21 * dx21 + dy21 * dy21, b2 = dx31 * dx31 + dy31 * dy31;
+  const ab = dx21 * dx31 + dy21 * dy31;
+  if (a2 === 0 || b2 === 0) return 0;
+  return Math.acos(ab / Math.sqrt(a2 * b2)) * 180 / Math.PI;
 }
 
 const map = new maplibregl.Map({
   container: 'map',
   style: 'https://tiles.openfreemap.org/styles/positron',
   center: [-2.5, 54.5],
-  zoom: 6
+  zoom: 5
 });
 
 map.on('load', async () => {
   const castles = await loadCastles();
 
   // Ley line source and layer
-  map.addSource('ley-line', { type: 'geojson', data: { type:'FeatureCollection', features: [] } });
+  map.addSource('ley-line', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
   map.addLayer({ id: 'ley-line-layer', type: 'line', source: 'ley-line', paint: { 'line-color': '#00f', 'line-width': 3 } });
 
   // Highlight points source and layer
-  map.addSource('highlight-points', { type: 'geojson', data: { type:'FeatureCollection', features: [] } });
+  map.addSource('highlight-points', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
   map.addLayer({
     id: 'highlight-points-layer',
     type: 'circle',
@@ -86,7 +124,41 @@ map.on('load', async () => {
     }
   });
 
+  // Add click listener for the highlight points layer (must come before the main map click)
+  map.on('click', 'highlight-points-layer', (e) => {
+    // This part runs ONLY when a feature on this layer is clicked.
+    // The event is automatically "scoped" to this layer.
+
+    // Get the clicked feature
+    const feature = e.features[0];
+    const coordinates = feature.geometry.coordinates.slice();
+    let popupContent = '';
+
+    // Determine content based on feature type
+    if (feature.properties.type === 'castle') {
+      const castleName = feature.properties.name || "Castle";
+      popupContent = `<strong>${castleName}</strong>`;
+    } else if (feature.properties.type === 'click') {
+      popupContent = `<strong>You</strong>`;
+    }
+
+    // Create and show the popup
+    new maplibregl.Popup()
+      .setLngLat(coordinates)
+      .setHTML(popupContent)
+      .addTo(map);
+  });
+
+  // Main map click logic to find and draw ley line
   map.on('click', e => {
+    // Check if the click event occurred on a feature in the highlight layer.
+    // If it did, exit the function to prevent the ley line calculation.
+    const features = map.queryRenderedFeatures(e.point, { layers: ['highlight-points-layer'] });
+    if (features.length > 0) {
+      return;
+    }
+
+    // This code only runs if no marker was clicked
     const clickedPoint = [e.lngLat.lng, e.lngLat.lat];
     let bestAngleDiff = Infinity;
     let bestTriplet = null;
@@ -101,12 +173,12 @@ map.on('load', async () => {
 
         // All 6 permutations of assigning A,B,C
         const candidates = [
-          {A: clickedPoint, B: coords1, C: coords2},
-          {A: clickedPoint, B: coords2, C: coords1},
-          {A: coords1, B: clickedPoint, C: coords2},
-          {A: coords2, B: clickedPoint, C: coords1},
-          {A: coords1, B: coords2, C: clickedPoint},
-          {A: coords2, B: coords1, C: clickedPoint},
+          { A: clickedPoint, B: coords1, C: coords2 },
+          { A: clickedPoint, B: coords2, C: coords1 },
+          { A: coords1, B: clickedPoint, C: coords2 },
+          { A: coords2, B: clickedPoint, C: coords1 },
+          { A: coords1, B: coords2, C: clickedPoint },
+          { A: coords2, B: coords1, C: clickedPoint },
         ];
 
         for (const cand of candidates) {
@@ -128,16 +200,16 @@ map.on('load', async () => {
 
     if (bestTriplet) {
       // Draw ley line through A -> C -> B
-      const leyLineGeoJSON = { type:'FeatureCollection', features: [lineFeature([bestTriplet.A, bestTriplet.C, bestTriplet.B])] };
+      const leyLineGeoJSON = { type: 'FeatureCollection', features: [lineFeature([bestTriplet.A, bestTriplet.C, bestTriplet.B])] };
       map.getSource('ley-line').setData(leyLineGeoJSON);
 
       // Highlight points: clicked location + the two castles
       const pointsGeoJSON = {
         type: 'FeatureCollection',
         features: [
-          {...bestTriplet.castle1, properties: {...bestTriplet.castle1.properties, type: 'castle'}},
-          {...bestTriplet.castle2, properties: {...bestTriplet.castle2.properties, type: 'castle'}},
-          {...pointFeature(clickedPoint), properties: {type:'click'}}
+          { ...bestTriplet.castle1, properties: { ...bestTriplet.castle1.properties, type: 'castle' } },
+          { ...bestTriplet.castle2, properties: { ...bestTriplet.castle2.properties, type: 'castle' } },
+          { ...pointFeature(clickedPoint), properties: { type: 'click' } }
         ]
       };
       map.getSource('highlight-points').setData(pointsGeoJSON);
@@ -151,7 +223,18 @@ map.on('load', async () => {
       `;
     }
   });
+
+  // Change the cursor to a pointer when hovering over the highlight-points-layer
+  map.on('mouseenter', 'highlight-points-layer', () => {
+    map.getCanvas().style.cursor = 'pointer';
+  });
+
+  // Change it back to a grab cursor when it leaves
+  map.on('mouseleave', 'highlight-points-layer', () => {
+    map.getCanvas().style.cursor = '';
+  });
 });
 </script>
+
 </body>
 </html>
