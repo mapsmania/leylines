@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>Castle & Stone Ley Lines</title>
+  <title>Ley Line Locator</title>
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
   <link href="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css" rel="stylesheet" />
   <script src="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js"></script>
@@ -27,7 +27,7 @@
       width: 320px;
       min-width: 300px;
       padding: 15px;
-      background: #f7f7f7;
+      background: #fff;
       border-right: 1px solid #ccc;
       overflow-y: auto;
       box-sizing: border-box;
@@ -76,6 +76,7 @@
 <body>
 <div id="container">
   <div id="sidebar">
+    <img src="https://mapsmania.github.io/leylines/logo.png" alt="Ley Line Locator Logo" style="display: block; margin: 0 auto; max-width: 100%; height: auto;">
     <h2>Instructions</h2>
     <p>Click anywhere on the map to find the nearest ley line connecting two ancient sites.</p>
     <h3>Show Data:</h3>
@@ -83,10 +84,10 @@
     <label><input type="radio" name="dataset" value="stones"> Ancient Stones</label><br>
     <label><input type="radio" name="dataset" value="both"> Both</label>
     <div class="legend">
-      <h3>Legend</h3>
-      <div><span style="background:#b00"></span>Castle</div>
-      <div><span style="background:#666"></span>Ancient Stone</div>
-      <div><span style="background:#0f0"></span>Your Click</div>
+        <h3>Legend</h3>
+        <div><span style="background:#b00"></span>Castle</div>
+        <div><span style="background:#666"></span>Ancient Stone</div>
+        <div><span style="background:#0f0"></span>Your Click</div>
     </div>
   </div>
   <div id="map"></div>
