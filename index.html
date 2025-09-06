@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>Castle Ley Lines</title>
+  <title>Castle & Stone Ley Lines</title>
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
   <link href="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css" rel="stylesheet" />
   <script src="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js"></script>
@@ -12,16 +12,16 @@
       padding: 0;
       height: 100%;
       font-family: sans-serif;
-      box-sizing: border-box; /* Ensures padding/border is included in height/width */
+      box-sizing: border-box;
     }
     #container {
       display: flex;
-      flex-direction: row; /* Default for desktop */
+      flex-direction: row;
       height: 100%;
     }
     #map {
       flex: 1;
-      height: 100%; /* Ensure map fills available space */
+      height: 100%;
     }
     #sidebar {
       width: 320px;
@@ -36,24 +36,39 @@
     h2 {
       margin-top: 0;
     }
-    /* Mobile-first layout adjustments */
+    .legend {
+      margin-top: 10px;
+    }
+    .legend div {
+      display: flex;
+      align-items: center;
+      margin-bottom: 4px;
+    }
+    .legend span {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      margin-right: 6px;
+      border-radius: 50%;
+      border: 1px solid #333;
+    }
     @media (max-width: 768px) {
       #container {
-        flex-direction: column-reverse; /* Stack elements, map on top */
+        flex-direction: column-reverse;
         height: auto;
-        min-height: 100vh; /* Minimum height for mobile */
+        min-height: 100vh;
       }
       #sidebar {
         width: 100%;
         min-width: auto;
         border-right: none;
         border-top: 1px solid #ccc;
-        flex-shrink: 1; /* Allow sidebar to shrink */
-        order: 2; /* Ensures sidebar appears below map */
+        flex-shrink: 1;
+        order: 2;
       }
       #map {
-        height: 70vh; /* Set a fixed height for the map on smaller screens */
-        order: 1; /* Ensures map appears above sidebar */
+        height: 70vh;
+        order: 1;
       }
     }
   </style>
@@ -62,16 +77,26 @@
 <div id="container">
   <div id="sidebar">
     <h2>Instructions</h2>
-    <p>Click anywhere on the map to find the nearest ley line connecting two castles. The map will highlight the two castles and show the line passing through your selected location.</p>
+    <p>Click anywhere on the map to find the nearest ley line connecting two ancient sites.</p>
+    <h3>Show Data:</h3>
+    <label><input type="radio" name="dataset" value="castles" checked> Castles</label><br>
+    <label><input type="radio" name="dataset" value="stones"> Ancient Stones</label><br>
+    <label><input type="radio" name="dataset" value="both"> Both</label>
+    <div class="legend">
+      <h3>Legend</h3>
+      <div><span style="background:#b00"></span>Castle</div>
+      <div><span style="background:#666"></span>Ancient Stone</div>
+      <div><span style="background:#0f0"></span>Your Click</div>
+    </div>
   </div>
   <div id="map"></div>
 </div>
 
 <script>
-async function loadCastles() {
+async function loadGeoJSON(url) {
   try {
-    const res = await fetch('https://mapsmania.github.io/leylines/castles.geojson');
-    if (!res.ok) throw new Error('Failed to load GeoJSON');
+    const res = await fetch(url);
+    if (!res.ok) throw new Error('Failed to load ' + url);
     return await res.json();
   } catch (err) {
     console.error(err);
@@ -104,7 +129,8 @@ const map = new maplibregl.Map({
 });
 
 map.on('load', async () => {
-  const castles = await loadCastles();
+  const castles = await loadGeoJSON('https://mapsmania.github.io/leylines/castles.geojson');
+  const stones = await loadGeoJSON('https://mapsmania.github.io/leylines/stones.geojson');
 
   // Ley line source and layer
   map.addSource('ley-line', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
@@ -118,60 +144,70 @@ map.on('load', async () => {
     source: 'highlight-points',
     paint: {
       'circle-radius': 6,
-      'circle-color': ['match', ['get', 'type'], 'castle', '#b00', 'click', '#0f0', '#000'],
+      'circle-color': [
+        'match',
+        ['get', 'type'],
+        'castle', '#b00',
+        'stone', '#666',
+        'click', '#0f0',
+        '#000'
+      ],
       'circle-stroke-width': 1,
       'circle-stroke-color': '#fff'
     }
   });
 
-  // Add click listener for the highlight points layer (must come before the main map click)
-  map.on('click', 'highlight-points-layer', (e) => {
-    // This part runs ONLY when a feature on this layer is clicked.
-    // The event is automatically "scoped" to this layer.
+  // Update dataset function
+  function getSites(choice) {
+    if (choice === 'castles') return castles.features;
+    if (choice === 'stones') return stones.features;
+    return [...castles.features, ...stones.features];
+  }
 
-    // Get the clicked feature
+  let currentChoice = 'castles';
+  document.querySelectorAll('input[name="dataset"]').forEach(input => {
+    input.addEventListener('change', (e) => currentChoice = e.target.value);
+  });
+
+  // Popup on highlight markers
+  map.on('click', 'highlight-points-layer', (e) => {
     const feature = e.features[0];
     const coordinates = feature.geometry.coordinates.slice();
+    const props = feature.properties;
     let popupContent = '';
 
-    // Determine content based on feature type
-    if (feature.properties.type === 'castle') {
-      const castleName = feature.properties.name || "Castle";
-      popupContent = `<strong>${castleName}</strong>`;
-    } else if (feature.properties.type === 'click') {
-      popupContent = `<strong>You</strong>`;
+    if (props.type === 'castle') {
+      popupContent = `<strong>${props.name || "Castle"}</strong>`;
+    } else if (props.type === 'stone') {
+      popupContent = `<strong>${props.name || "Ancient Stone"}</strong>`;
+    } else if (props.type === 'click') {
+      popupContent = `<strong>Your Location</strong>`;
     }
 
-    // Create and show the popup
     new maplibregl.Popup()
       .setLngLat(coordinates)
       .setHTML(popupContent)
       .addTo(map);
   });
 
-  // Main map click logic to find and draw ley line
+  // Main map click logic
   map.on('click', e => {
-    // Check if the click event occurred on a feature in the highlight layer.
-    // If it did, exit the function to prevent the ley line calculation.
+    // Check if the click was on a highlight marker; if so, do nothing
     const features = map.queryRenderedFeatures(e.point, { layers: ['highlight-points-layer'] });
-    if (features.length > 0) {
-      return;
-    }
+    if (features.length > 0) return;
 
-    // This code only runs if no marker was clicked
     const clickedPoint = [e.lngLat.lng, e.lngLat.lat];
+    const currentFeatures = getSites(currentChoice);
     let bestAngleDiff = Infinity;
     let bestTriplet = null;
 
-    // Evaluate all pairs of castles
-    for (let i = 0; i < castles.features.length; i++) {
-      for (let j = i + 1; j < castles.features.length; j++) {
-        const castle1 = castles.features[i];
-        const castle2 = castles.features[j];
-        const coords1 = castle1.geometry.coordinates;
-        const coords2 = castle2.geometry.coordinates;
+    for (let i = 0; i < currentFeatures.length; i++) {
+      for (let j = i + 1; j < currentFeatures.length; j++) {
+        const site1 = currentFeatures[i];
+        const site2 = currentFeatures[j];
+        const coords1 = site1.geometry.coordinates;
+        const coords2 = site2.geometry.coordinates;
 
-        // All 6 permutations of assigning A,B,C
         const candidates = [
           { A: clickedPoint, B: coords1, C: coords2 },
           { A: clickedPoint, B: coords2, C: coords1 },
@@ -190,8 +226,8 @@ map.on('load', async () => {
               A: cand.A,
               B: cand.B,
               C: cand.C,
-              castle1: castle1,
-              castle2: castle2
+              site1: site1,
+              site2: site2
             };
           }
         }
@@ -199,40 +235,49 @@ map.on('load', async () => {
     }
 
     if (bestTriplet) {
-      // Draw ley line through A -> C -> B
+      // Draw ley line
       const leyLineGeoJSON = { type: 'FeatureCollection', features: [lineFeature([bestTriplet.A, bestTriplet.C, bestTriplet.B])] };
       map.getSource('ley-line').setData(leyLineGeoJSON);
 
-      // Highlight points: clicked location + the two castles
+      // Highlight just the two sites + clicked location
       const pointsGeoJSON = {
         type: 'FeatureCollection',
         features: [
-          { ...bestTriplet.castle1, properties: { ...bestTriplet.castle1.properties, type: 'castle' } },
-          { ...bestTriplet.castle2, properties: { ...bestTriplet.castle2.properties, type: 'castle' } },
+          { ...bestTriplet.site1, properties: { ...bestTriplet.site1.properties, type: bestTriplet.site1.properties.historic } },
+          { ...bestTriplet.site2, properties: { ...bestTriplet.site2.properties, type: bestTriplet.site2.properties.historic } },
           { ...pointFeature(clickedPoint), properties: { type: 'click' } }
         ]
       };
       map.getSource('highlight-points').setData(pointsGeoJSON);
 
-      // Update sidebar with actual castle names
-      const castle1Name = bestTriplet.castle1.properties.name || "Castle 1";
-      const castle2Name = bestTriplet.castle2.properties.name || "Castle 2";
+      // Update sidebar
+      const site1Name = bestTriplet.site1.properties.name || "Site 1";
+      const site2Name = bestTriplet.site2.properties.name || "Site 2";
       document.getElementById('sidebar').innerHTML = `
         <h2>Ley Line Found</h2>
-        <p>Your location lies on the ancient Ley Line running through <strong>${castle1Name}</strong> and <strong>${castle2Name}</strong>. Ley lines are straight alignments between historical structures, prehistoric sites, and prominent landmarks. The concept was first proposed by Alfred Watkins in the 1920s, who theorized that these lines were ancient trade routes used by early British societies.</p>
+        <p>Your location lies on a Ley Line running through <strong>${site1Name}</strong> and <strong>${site2Name}</strong>.</p>
+        <p>Ley lines are straight alignments between historical structures, prehistoric sites, and prominent landmarks. The concept was first proposed by Alfred Watkins in the 1920s, who theorized that these lines were ancient trade routes used by early British societies.</p>
+        <h3>Show Data:</h3>
+        <label><input type="radio" name="dataset" value="castles" ${currentChoice==='castles'?'checked':''}> Castles</label><br>
+        <label><input type="radio" name="dataset" value="stones" ${currentChoice==='stones'?'checked':''}> Ancient Stones</label><br>
+        <label><input type="radio" name="dataset" value="both" ${currentChoice==='both'?'checked':''}> Both</label>
+        <div class="legend">
+          <h3>Legend</h3>
+          <div><span style="background:#b00"></span>Castle</div>
+          <div><span style="background:#666"></span>Ancient Stone</div>
+          <div><span style="background:#0f0"></span>Your Click</div>
+        </div>
       `;
+      // reattach listeners
+      document.querySelectorAll('input[name="dataset"]').forEach(input => {
+        input.addEventListener('change', (e) => currentChoice = e.target.value);
+      });
     }
   });
 
-  // Change the cursor to a pointer when hovering over the highlight-points-layer
-  map.on('mouseenter', 'highlight-points-layer', () => {
-    map.getCanvas().style.cursor = 'pointer';
-  });
-
-  // Change it back to a grab cursor when it leaves
-  map.on('mouseleave', 'highlight-points-layer', () => {
-    map.getCanvas().style.cursor = '';
-  });
+  // Cursor change on hover
+  map.on('mouseenter', 'highlight-points-layer', () => { map.getCanvas().style.cursor = 'pointer'; });
+  map.on('mouseleave', 'highlight-points-layer', () => { map.getCanvas().style.cursor = ''; });
 });
 </script>
 
